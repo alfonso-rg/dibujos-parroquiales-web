@@ -1,0 +1,792 @@
+[
+  {
+    "date": "2023-10-08",
+    "dateDisplay": "08/10/2023",
+    "description": "Domingo D XVII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-10-15",
+    "dateDisplay": "15/10/2023",
+    "description": "Domingo D XVIII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-10-22",
+    "dateDisplay": "22/10/2023",
+    "description": "Domingo D XIX TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-10-29",
+    "dateDisplay": "29/10/2023",
+    "description": "Domingo D XX TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-11-01",
+    "dateDisplay": "01/11/2023",
+    "description": "Miércoles Todos los Santos",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-11-05",
+    "dateDisplay": "05/11/2023",
+    "description": "Domingo D XXI TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-11-12",
+    "dateDisplay": "12/11/2023",
+    "description": "Domingo D XXII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-11-19",
+    "dateDisplay": "19/11/2023",
+    "description": "Domingo D XXIII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-11-26",
+    "dateDisplay": "26/11/2023",
+    "description": "Domingo D XXIV TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-12-03",
+    "dateDisplay": "03/12/2023",
+    "description": "Domingo D I ADVI",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-12-08",
+    "dateDisplay": "08/12/2023",
+    "description": "Viernes Inmaculada Concepción",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-12-10",
+    "dateDisplay": "10/12/2023",
+    "description": "Domingo D II ADVI",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-12-17",
+    "dateDisplay": "17/12/2023",
+    "description": "Domingo D III ADVI",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-12-24",
+    "dateDisplay": "24/12/2023",
+    "description": "Domingo D IV ADVI",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2023-12-25",
+    "dateDisplay": "25/12/2023",
+    "description": "Lunes Navidad",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2"
+    ]
+  },
+  {
+    "date": "2024-01-14",
+    "dateDisplay": "14/01/2024",
+    "description": "Domingo D II TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-01-21",
+    "dateDisplay": "21/01/2024",
+    "description": "Domingo D III TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-01-28",
+    "dateDisplay": "28/01/2024",
+    "description": "Domingo D IV TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-02-04",
+    "dateDisplay": "04/02/2024",
+    "description": "Domingo D V TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-02-11",
+    "dateDisplay": "11/02/2024",
+    "description": "Domingo D VI TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-02-18",
+    "dateDisplay": "18/02/2024",
+    "description": "Domingo D I Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-02-25",
+    "dateDisplay": "25/02/2024",
+    "description": "Domingo D II Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-03-03",
+    "dateDisplay": "03/03/2024",
+    "description": "Domingo D III Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-03-10",
+    "dateDisplay": "10/03/2024",
+    "description": "Domingo D IV Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-03-17",
+    "dateDisplay": "17/03/2024",
+    "description": "Domingo D V Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-03-24",
+    "dateDisplay": "24/03/2024",
+    "description": "Domingo D Pasión",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2"
+    ]
+  },
+  {
+    "date": "2024-03-28",
+    "dateDisplay": "28/03/2024",
+    "description": "Jueves Santo",
+    "images": [
+      "lectura1",
+      "salmo"
+    ]
+  },
+  {
+    "date": "2024-03-31",
+    "dateDisplay": "31/03/2024",
+    "description": "Domingo de Resurrección",
+    "images": [
+      "lectura1",
+      "salmo"
+    ]
+  },
+  {
+    "date": "2024-04-07",
+    "dateDisplay": "07/04/2024",
+    "description": "Domingo D II Pascua",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-04-14",
+    "dateDisplay": "14/04/2024",
+    "description": "Domingo D III Pascua",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-10-06",
+    "dateDisplay": "06/10/2024",
+    "description": "Domingo D XXVII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-10-13",
+    "dateDisplay": "13/10/2024",
+    "description": "Domingo D XXVIII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-10-20",
+    "dateDisplay": "20/10/2024",
+    "description": "Domingo D XXVIII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-10-27",
+    "dateDisplay": "27/10/2024",
+    "description": "Domingo D XXVIII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-11-03",
+    "dateDisplay": "03/11/2024",
+    "description": "Domingo D XXXI TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-11-10",
+    "dateDisplay": "10/11/2024",
+    "description": "Domingo D XXXI TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-11-17",
+    "dateDisplay": "17/11/2024",
+    "description": "Domingo D XXXI TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-11-24",
+    "dateDisplay": "24/11/2024",
+    "description": "Domingo D XXXII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-12-01",
+    "dateDisplay": "01/12/2024",
+    "description": "Domingo D I Adviento",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-12-08",
+    "dateDisplay": "08/12/2024",
+    "description": "Domingo D II Adviento Inmaculada",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-12-15",
+    "dateDisplay": "15/12/2024",
+    "description": "Domingo D III Adviento",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-12-22",
+    "dateDisplay": "22/12/2024",
+    "description": "Domingo D IV Adviento",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2024-12-25",
+    "dateDisplay": "25/12/2024",
+    "description": "Miércoles Navidad",
+    "images": [
+      "lectura1",
+      "salmo"
+    ]
+  },
+  {
+    "date": "2024-12-29",
+    "dateDisplay": "29/12/2024",
+    "description": "Domingo D I Navidad",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-01-12",
+    "dateDisplay": "12/01/2025",
+    "description": "Domingo D I TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-01-19",
+    "dateDisplay": "19/01/2025",
+    "description": "Domingo D II TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-01-26",
+    "dateDisplay": "26/01/2025",
+    "description": "Domingo D III TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-02-02",
+    "dateDisplay": "02/02/2025",
+    "description": "Domingo D IV TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-02-09",
+    "dateDisplay": "09/02/2025",
+    "description": "Domingo D V TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-02-16",
+    "dateDisplay": "16/02/2025",
+    "description": "Domingo D VI TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-02-23",
+    "dateDisplay": "23/02/2025",
+    "description": "Domingo D VII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-03-02",
+    "dateDisplay": "02/03/2025",
+    "description": "Domingo D VII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-03-09",
+    "dateDisplay": "09/03/2025",
+    "description": "Domingo D I Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-03-16",
+    "dateDisplay": "16/03/2025",
+    "description": "Domingo D II Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-03-23",
+    "dateDisplay": "23/03/2025",
+    "description": "Domingo D III Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-03-30",
+    "dateDisplay": "30/03/2025",
+    "description": "Domingo D IV Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-04-06",
+    "dateDisplay": "06/04/2025",
+    "description": "Domingo D IV Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-04-13",
+    "dateDisplay": "13/04/2025",
+    "description": "Domingo de Ramos",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2"
+    ]
+  },
+  {
+    "date": "2025-04-20",
+    "dateDisplay": "20/04/2025",
+    "description": "Domingo de Resurrección",
+    "images": [
+      "lectura1",
+      "salmo"
+    ]
+  },
+  {
+    "date": "2025-04-27",
+    "dateDisplay": "27/04/2025",
+    "description": "Domingo II Pascua",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-09-21",
+    "dateDisplay": "21/09/2025",
+    "description": "Domingo D XXV TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-09-28",
+    "dateDisplay": "28/09/2025",
+    "description": "Domingo XXVI TO",
+    "images": [
+      "lectura1",
+      "salmo"
+    ]
+  },
+  {
+    "date": "2025-10-12",
+    "dateDisplay": "12/10/2025",
+    "description": "Domingo D XXVIII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-10-19",
+    "dateDisplay": "19/10/2025",
+    "description": "Domingo D XXIX TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-10-26",
+    "dateDisplay": "26/10/2025",
+    "description": "Domingo D XXX TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-11-02",
+    "dateDisplay": "02/11/2025",
+    "description": "Domingo Fieles Difuntos",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-11-09",
+    "dateDisplay": "09/11/2025",
+    "description": "Domingo D XXXII Basílica de Letrán",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-11-16",
+    "dateDisplay": "16/11/2025",
+    "description": "Domingo D XXXIII TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-11-30",
+    "dateDisplay": "30/11/2025",
+    "description": "Domingo D I Adviento",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-12-07",
+    "dateDisplay": "07/12/2025",
+    "description": "Domingo D II Adviento",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-12-14",
+    "dateDisplay": "14/12/2025",
+    "description": "Domingo D III Adviento",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2025-12-21",
+    "dateDisplay": "21/12/2025",
+    "description": "Domingo D IV Adviento",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2026-01-11",
+    "dateDisplay": "11/01/2026",
+    "description": "Domingo D I Bautismo del Señor",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  }
+]

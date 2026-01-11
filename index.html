@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Dibujos para colorear de las lecturas dominicales - Parroquia San Benito de Murcia">
+    <meta name="theme-color" content="#4a90d9">
+    <title>Dibujos Dominicales - Parroquia San Benito</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dibujos Dominicales</h1>
+        <p class="subtitle">Parroquia San Benito de Murcia</p>
+    </header>
+
+    <main>
+        <!-- Selector de fecha -->
+        <section class="selector-section">
+            <label for="date-select">Elige el domingo:</label>
+            <select id="date-select">
+                <option value="">-- Selecciona una fecha --</option>
+            </select>
+        </section>
+
+        <!-- Selector de lectura -->
+        <section class="reading-buttons" id="reading-buttons" style="display: none;">
+            <button class="reading-btn" data-reading="lectura1">Primera Lectura</button>
+            <button class="reading-btn" data-reading="salmo">Salmo</button>
+            <button class="reading-btn" data-reading="lectura2">Segunda Lectura</button>
+            <button class="reading-btn" data-reading="evangelio">Evangelio</button>
+        </section>
+
+        <!-- Área de coloreado -->
+        <section class="coloring-area" id="coloring-area" style="display: none;">
+            <!-- Paleta de colores -->
+            <div class="color-palette" id="color-palette"></div>
+
+            <!-- Herramientas -->
+            <div class="tools">
+                <button class="tool-btn active" id="fill-tool" title="Rellenar">
+                    <span class="tool-icon">🪣</span>
+                </button>
+                <button class="tool-btn" id="eraser-tool" title="Borrador">
+                    <span class="tool-icon">🧽</span>
+                </button>
+                <button class="tool-btn" id="undo-btn" title="Deshacer">
+                    <span class="tool-icon">↩️</span>
+                </button>
+            </div>
+
+            <!-- Canvas -->
+            <div class="canvas-container">
+                <canvas id="coloring-canvas"></canvas>
+                <div class="loading" id="loading">Cargando...</div>
+            </div>
+
+            <!-- Botones de acción -->
+            <div class="action-buttons">
+                <button class="action-btn" id="download-btn">
+                    <span>📥</span> Descargar
+                </button>
+                <button class="action-btn secondary" id="reset-btn">
+                    <span>🔄</span> Empezar de nuevo
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hecho con amor para los niños de la parroquia</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
