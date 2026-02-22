@@ -15,12 +15,24 @@
     </header>
 
     <main>
-        <!-- Selector de fecha -->
-        <section class="selector-section">
+        <!-- Tabs de sección -->
+        <section class="section-tabs" id="section-tabs">
+            <!-- Generados dinámicamente -->
+        </section>
+
+        <!-- Panel lecturas (domingos por año) -->
+        <section class="selector-section" id="lecturas-panel">
             <label for="date-select">Elige el domingo:</label>
             <select id="date-select">
                 <option value="">-- Selecciona una fecha --</option>
             </select>
+        </section>
+
+        <!-- Panel oraciones -->
+        <section class="oraciones-panel" id="oraciones-panel" style="display: none;">
+            <div class="oraciones-list" id="oraciones-list">
+                <!-- Generados dinámicamente -->
+            </div>
         </section>
 
         <!-- Selector de lectura -->
@@ -47,6 +59,13 @@
                 <button class="tool-btn" id="undo-btn" title="Deshacer">
                     <span class="tool-icon">↩️</span>
                 </button>
+            </div>
+
+            <!-- Navegación de páginas (solo oraciones) -->
+            <div class="page-nav" id="page-nav" style="display: none;">
+                <button class="page-btn" id="prev-page">&#8592; Anterior</button>
+                <span class="page-indicator" id="page-indicator">1 / 1</span>
+                <button class="page-btn" id="next-page">Siguiente &#8594;</button>
             </div>
 
             <!-- Canvas -->

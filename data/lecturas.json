@@ -46,7 +46,7 @@
   {
     "date": "2023-11-01",
     "dateDisplay": "01/11/2023",
-    "description": "Miércoles Todos los Santos",
+    "description": "MiÃ©rcoles Todos los Santos",
     "images": [
       "lectura1",
       "salmo",
@@ -112,7 +112,7 @@
   {
     "date": "2023-12-08",
     "dateDisplay": "08/12/2023",
-    "description": "Viernes Inmaculada Concepción",
+    "description": "Viernes Inmaculada ConcepciÃ³n",
     "images": [
       "lectura1",
       "salmo",
@@ -276,7 +276,7 @@
   {
     "date": "2024-03-24",
     "dateDisplay": "24/03/2024",
-    "description": "Domingo D Pasión",
+    "description": "Domingo D PasiÃ³n",
     "images": [
       "lectura1",
       "salmo",
@@ -295,7 +295,7 @@
   {
     "date": "2024-03-31",
     "dateDisplay": "31/03/2024",
-    "description": "Domingo de Resurrección",
+    "description": "Domingo de ResurrecciÃ³n",
     "images": [
       "lectura1",
       "salmo"
@@ -458,7 +458,7 @@
   {
     "date": "2024-12-25",
     "dateDisplay": "25/12/2024",
-    "description": "Miércoles Navidad",
+    "description": "MiÃ©rcoles Navidad",
     "images": [
       "lectura1",
       "salmo"
@@ -631,7 +631,7 @@
   {
     "date": "2025-04-20",
     "dateDisplay": "20/04/2025",
-    "description": "Domingo de Resurrección",
+    "description": "Domingo de ResurrecciÃ³n",
     "images": [
       "lectura1",
       "salmo"
@@ -715,7 +715,7 @@
   {
     "date": "2025-11-09",
     "dateDisplay": "09/11/2025",
-    "description": "Domingo D XXXII Basílica de Letrán",
+    "description": "Domingo D XXXII BasÃ­lica de LetrÃ¡n",
     "images": [
       "lectura1",
       "salmo",
@@ -781,7 +781,73 @@
   {
     "date": "2026-01-11",
     "dateDisplay": "11/01/2026",
-    "description": "Domingo D I Bautismo del Señor",
+    "description": "Domingo D I Bautismo del SeÃ±or",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2026-01-18",
+    "dateDisplay": "18/01/2026",
+    "description": "Domingo D II TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2026-01-25",
+    "dateDisplay": "25/01/2026",
+    "description": "Domingo D III TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2026-02-01",
+    "dateDisplay": "01/02/2026",
+    "description": "Domingo D IV TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2026-02-08",
+    "dateDisplay": "08/02/2026",
+    "description": "Domingo D V TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2026-02-15",
+    "dateDisplay": "15/02/2026",
+    "description": "Domingo D VI TO",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ]
+  },
+  {
+    "date": "2026-02-22",
+    "dateDisplay": "22/02/2026",
+    "description": "Domingo D I Cuaresma",
     "images": [
       "lectura1",
       "salmo",
