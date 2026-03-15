@@ -40,6 +40,26 @@ header .subtitle {
     opacity: 0.9;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.header-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    flex-shrink: 0;
+}
+
+.header-text {
+    text-align: left;
+}
+
 /* Main */
 main {
     flex: 1;
@@ -51,11 +71,27 @@ main {
 
 /* ─── Tabs de sección ──────────────────────────────────────────────────────── */
 
-.section-tabs {
+.primary-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.secondary-tabs {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 1rem;
+}
+
+.primary-tab-btn {
+    font-size: 1.05rem;
+    padding: 0.6rem 1.3rem;
+}
+
+.secondary-tab-btn {
+    font-size: 0.88rem;
+    padding: 0.4rem 0.9rem;
 }
 
 .tab-btn {
@@ -605,6 +641,11 @@ footer {
         font-size: 1.1rem;
     }
 
+    .header-icon {
+        width: 56px;
+        height: 56px;
+    }
+
     main {
         padding: 1.5rem;
     }
@@ -741,6 +782,10 @@ footer {
 
     .horario-nota {
         color: #888;
+    }
+
+    .header-icon {
+        border-color: rgba(255, 255, 255, 0.5);
     }
 
 }

@@ -35,6 +35,7 @@ const COLORS = [
 let state = {
     lecturas: [],
     oraciones: [],
+    primarySection: 'dibujos', // Sección principal activa
     selectedYear: null,       // Año activo ('oraciones' o '2023', '2024', …)
     selectedDate: null,
     selectedReading: null,
@@ -59,16 +60,12 @@ async function init() {
     initColorPalette();
     initEventListeners();
 
-    // Por defecto: seleccionar el año más reciente y la fecha más reciente
-    const years = getYears();
-    if (years.length > 0) {
-        selectYear(years[0]);
-        // Auto-seleccionar la primera fecha (más reciente) del dropdown
-        const select = document.getElementById('date-select');
-        if (select.options.length > 1) {
-            select.selectedIndex = 1;
-            select.dispatchEvent(new Event('change'));
-        }
+    // Por defecto: Dibujos activo, año más reciente, fecha más reciente
+    selectPrimary('dibujos');
+    const select = document.getElementById('date-select');
+    if (select.options.length > 1) {
+        select.selectedIndex = 1;
+        select.dispatchEvent(new Event('change'));
     }
 }
 
@@ -100,34 +97,76 @@ function getYears() {
 }
 
 function buildSectionTabs() {
-    const container = document.getElementById('section-tabs');
-    container.innerHTML = '';
+    const primaryContainer = document.getElementById('primary-tabs');
+    const secondaryContainer = document.getElementById('secondary-tabs');
+    primaryContainer.innerHTML = '';
+    secondaryContainer.innerHTML = '';
 
-    // Tab Parroquia
+    // Tab primario: Parroquia
     const parroquiaBtn = document.createElement('button');
-    parroquiaBtn.className = 'tab-btn';
+    parroquiaBtn.className = 'tab-btn primary-tab-btn';
     parroquiaBtn.dataset.section = 'parroquia';
     parroquiaBtn.textContent = 'Parroquia';
-    parroquiaBtn.addEventListener('click', () => selectYear('parroquia'));
-    container.appendChild(parroquiaBtn);
+    parroquiaBtn.addEventListener('click', () => selectPrimary('parroquia'));
+    primaryContainer.appendChild(parroquiaBtn);
 
-    // Tab Oraciones
+    // Tab primario: Dibujos
+    const dibujosBtn = document.createElement('button');
+    dibujosBtn.className = 'tab-btn primary-tab-btn';
+    dibujosBtn.dataset.section = 'dibujos';
+    dibujosBtn.textContent = 'Dibujos';
+    dibujosBtn.addEventListener('click', () => selectPrimary('dibujos'));
+    primaryContainer.appendChild(dibujosBtn);
+
+    // Tab secundario: Oraciones
     const oracionesBtn = document.createElement('button');
-    oracionesBtn.className = 'tab-btn';
+    oracionesBtn.className = 'tab-btn secondary-tab-btn';
     oracionesBtn.dataset.section = 'oraciones';
     oracionesBtn.textContent = 'Oraciones';
     oracionesBtn.addEventListener('click', () => selectYear('oraciones'));
-    container.appendChild(oracionesBtn);
+    secondaryContainer.appendChild(oracionesBtn);
 
-    // Tabs por año
+    // Tabs secundarios: años
     getYears().forEach(year => {
         const btn = document.createElement('button');
-        btn.className = 'tab-btn';
+        btn.className = 'tab-btn secondary-tab-btn';
         btn.dataset.section = year;
         btn.textContent = year;
         btn.addEventListener('click', () => selectYear(year));
-        container.appendChild(btn);
+        secondaryContainer.appendChild(btn);
     });
+}
+
+function selectPrimary(section) {
+    state.primarySection = section;
+    const secondaryContainer = document.getElementById('secondary-tabs');
+
+    // Actualizar tabs primarios
+    document.querySelectorAll('.primary-tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.section === section);
+    });
+
+    if (section === 'parroquia') {
+        secondaryContainer.style.display = 'none';
+        document.getElementById('parroquia-panel').style.display = 'block';
+        document.getElementById('lecturas-panel').style.display = 'none';
+        document.getElementById('oraciones-panel').style.display = 'none';
+        document.getElementById('reading-buttons').style.display = 'none';
+        document.getElementById('coloring-area').style.display = 'none';
+        document.getElementById('reading-info').style.display = 'none';
+        // Limpiar tabs secundarios activos
+        document.querySelectorAll('.secondary-tab-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+    } else {
+        // 'dibujos'
+        secondaryContainer.style.display = 'flex';
+        document.getElementById('parroquia-panel').style.display = 'none';
+        const years = getYears();
+        if (years.length > 0) {
+            selectYear(years[0]);
+        }
+    }
 }
 
 function selectYear(year) {
@@ -137,19 +176,12 @@ function selectYear(year) {
     state.selectedOracion = null;
     state.oracionPage = 0;
 
-    // Actualizar tabs activos
-    document.querySelectorAll('.tab-btn').forEach(btn => {
+    // Actualizar tabs secundarios activos
+    document.querySelectorAll('.secondary-tab-btn').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.section === year);
     });
 
-    if (year === 'parroquia') {
-        document.getElementById('lecturas-panel').style.display = 'none';
-        document.getElementById('oraciones-panel').style.display = 'none';
-        document.getElementById('parroquia-panel').style.display = 'block';
-        document.getElementById('reading-buttons').style.display = 'none';
-        document.getElementById('coloring-area').style.display = 'none';
-        document.getElementById('reading-info').style.display = 'none';
-    } else if (year === 'oraciones') {
+    if (year === 'oraciones') {
         document.getElementById('lecturas-panel').style.display = 'none';
         document.getElementById('oraciones-panel').style.display = 'block';
         document.getElementById('parroquia-panel').style.display = 'none';
@@ -315,13 +347,10 @@ function updateReadingInfo() {
     // Mostrar frase instructiva
     document.getElementById('reading-frase').textContent = reading.frase || '';
 
-    // Enlace a dominicos.org
-    const dateObj = new Date(state.selectedDate + 'T00:00:00');
-    const day = dateObj.getDate();
-    const month = dateObj.getMonth() + 1;
-    const year = dateObj.getFullYear();
+    // Enlace a Vatican News
+    const [yyyy, mm, dd] = state.selectedDate.split('-');
     const link = document.getElementById('reading-link');
-    link.href = `https://www.dominicos.org/predicacion/homilia/${day}-${month}-${year}/lecturas/`;
+    link.href = `https://www.vaticannews.va/es/evangelio-de-hoy/${yyyy}/${mm}/${dd}.html`;
 
     infoDiv.style.display = 'block';
 }
