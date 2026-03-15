@@ -377,12 +377,221 @@ main {
     background: #e0e0e0;
 }
 
+
+/* ─── Info de lectura ─────────────────────────────────────────────────────── */
+
+.reading-info {
+    background: linear-gradient(135deg, #f0f7ff 0%, #f5fff0 100%);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    border: 1px solid rgba(74, 144, 217, 0.2);
+}
+
+.reading-cita {
+    font-weight: 600;
+    color: #4a90d9;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.reading-frase {
+    font-size: 1.05rem;
+    color: #333;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+}
+
+.reading-link {
+    display: inline-block;
+    color: #67b26f;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    border: 2px solid #67b26f;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.reading-link:hover {
+    background: #67b26f;
+    color: white;
+}
+
 /* Footer */
 footer {
     text-align: center;
     padding: 1rem;
     color: #888;
     font-size: 0.85rem;
+}
+
+
+/* ─── Panel Parroquia ──────────────────────────────────────────────────────── */
+
+.parroquia-panel {
+    margin-bottom: 1rem;
+}
+
+.parroquia-foto {
+    width: 100%;
+    border-radius: 16px;
+    max-height: 260px;
+    object-fit: cover;
+    object-position: center 60%;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    display: block;
+}
+
+.parroquia-info {
+    background: white;
+    border-radius: 16px;
+    padding: 1.25rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.parroquia-nombre {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #4a90d9;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.parroquia-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 1.25rem;
+}
+
+.parroquia-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #444;
+    text-decoration: none;
+    font-size: 0.95rem;
+    padding: 0.4rem 0.5rem;
+    border-radius: 8px;
+    transition: background 0.15s;
+}
+
+.parroquia-item:hover {
+    background: #f0f7ff;
+    color: #4a90d9;
+}
+
+.parroquia-icon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    width: 1.5rem;
+    text-align: center;
+}
+
+.parroquia-redes {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.4rem 0.5rem;
+}
+
+.red-social {
+    display: inline-block;
+    padding: 0.45rem 1.1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.red-facebook {
+    background: #1877f2;
+    color: white;
+}
+
+.red-facebook:hover {
+    background: #1565c0;
+}
+
+.red-instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+}
+
+.red-instagram:hover {
+    opacity: 0.88;
+}
+
+/* Horario de misas */
+.horario-titulo {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #e8e8e8;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.horario-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+@media (max-width: 480px) {
+    .horario-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.horario-bloque {
+    background: linear-gradient(135deg, #f0f7ff 0%, #f5fff0 100%);
+    border-radius: 10px;
+    padding: 0.75rem;
+    border: 1px solid rgba(74, 144, 217, 0.15);
+}
+
+.horario-periodo {
+    font-weight: 700;
+    color: #4a90d9;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.horario-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+.horario-tabla td {
+    padding: 0.25rem 0.2rem;
+    vertical-align: top;
+    color: #444;
+}
+
+.horario-tabla td:first-child {
+    font-weight: 600;
+    color: #333;
+    padding-right: 0.5rem;
+    white-space: nowrap;
+}
+
+.horario-nota {
+    font-size: 0.78rem;
+    color: #777;
+    margin-top: 0.25rem;
+    line-height: 1.4;
 }
 
 /* ─── Responsive ───────────────────────────────────────────────────────────── */
@@ -475,6 +684,65 @@ footer {
         background: #4a90d9;
         color: white;
     }
+
+    .reading-info {
+        background: linear-gradient(135deg, #1a2a3e 0%, #1a2e1a 100%);
+        border-color: rgba(74, 144, 217, 0.3);
+    }
+
+    .reading-frase {
+        color: #f0f0f0;
+    }
+
+    .reading-link {
+        color: #90EE90;
+        border-color: #90EE90;
+    }
+
+    .reading-link:hover {
+        background: #67b26f;
+        color: white;
+    }
+
+    .parroquia-info {
+        background: #2a2a4a;
+    }
+
+    .parroquia-nombre {
+        color: #87CEEB;
+    }
+
+    .parroquia-item {
+        color: #d0d0e0;
+    }
+
+    .parroquia-item:hover {
+        background: #3a3a5a;
+        color: #87CEEB;
+    }
+
+    .horario-titulo {
+        color: #f0f0f0;
+        border-top-color: #4a4a6a;
+    }
+
+    .horario-bloque {
+        background: linear-gradient(135deg, #1a2a3e 0%, #1a2e1a 100%);
+        border-color: rgba(74, 144, 217, 0.25);
+    }
+
+    .horario-tabla td {
+        color: #c0c0d0;
+    }
+
+    .horario-tabla td:first-child {
+        color: #e0e0f0;
+    }
+
+    .horario-nota {
+        color: #888;
+    }
+
 }
 
 /* Loading animation */

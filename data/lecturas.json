@@ -8,7 +8,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 5,1-7",
+        "frase": "Un hombre espera buenos frutos de su viña, pero se decepciona al obtener resultados no deseados."
+      },
+      "salmo": {
+        "cita": "Sal 79,9.12.13-14.15-16.19-20",
+        "frase": "Una llamada a Dios para que proteja y restaure su vid, que simboliza a su pueblo."
+      },
+      "lectura2": {
+        "cita": "Filipenses 4,6-9",
+        "frase": "San Pablo insta a confiar en Dios, buscar la paz y seguir el camino correcto."
+      },
+      "evangelio": {
+        "cita": "Mateo 21,33-43",
+        "frase": "Un propietario enfrenta traición de los trabajadores de su viña, como es el rechazo de Jesús por algunos."
+      }
+    }
   },
   {
     "date": "2023-10-15",
@@ -19,7 +37,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 25,6-10a",
+        "frase": "Dios preparará una gran fiesta para todos y quitará todas las tristezas."
+      },
+      "salmo": {
+        "cita": "",
+        "frase": "Dios es como un pastor que cuida de sus ovejas, siempre está con nosotros y nos da todo lo que necesitamos."
+      },
+      "lectura2": {
+        "cita": "Filipenses 4,12-14.19-20",
+        "frase": "No importa si tenemos mucho o poco, con la ayuda de Dios podemos enfrentar cualquier situación."
+      },
+      "evangelio": {
+        "cita": "22,1-14",
+        "frase": "Jesús nos cuenta que un rey hizo una fiesta y, cuando algunos no vinieron, invitó a todos los que encontró en el camino."
+      }
+    }
   },
   {
     "date": "2023-10-22",
@@ -30,7 +66,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 45,1.4-6",
+        "frase": "Dios bendice a Ciro y le dice que Él es el único Dios."
+      },
+      "salmo": {
+        "cita": "",
+        "frase": "Cantemos y celebremos lo maravilloso que es el Señor."
+      },
+      "lectura2": {
+        "cita": "Tesalonicenses 1,1-5",
+        "frase": "Pablo, Silvano y Timoteo agradecen la fe y el amor de la gente y les recuerdan que Dios los eligió."
+      },
+      "evangelio": {
+        "cita": "22,15-21",
+        "frase": "Jesús dice que debemos darle a Dios lo que es de Dios y a cada uno lo que le corresponde."
+      }
+    }
   },
   {
     "date": "2023-10-29",
@@ -41,18 +95,54 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Éxodo (22,20-26",
+        "frase": "Debemos ser buenos y ayudar a todos."
+      },
+      "salmo": {
+        "cita": "",
+        "frase": "Amo a Dios; Él me protege."
+      },
+      "lectura2": {
+        "cita": "Tesalonicenses (1,5c-10",
+        "frase": "Compartimos la alegría de Dios y esperamos a Jesús."
+      },
+      "evangelio": {
+        "cita": "22,34-40",
+        "frase": "Ama a Dios y a todos como a ti mismo."
+      }
+    }
   },
   {
     "date": "2023-11-01",
     "dateDisplay": "01/11/2023",
-    "description": "MiÃ©rcoles Todos los Santos",
+    "description": "Miércoles Todos los Santos",
     "images": [
       "lectura1",
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Apocalipsis (7,2-4.9-14",
+        "frase": "La salvación es de nuestro Dios, y del Cordero."
+      },
+      "salmo": {
+        "cita": "",
+        "frase": "Dios ama a quienes tienen corazón limpio."
+      },
+      "lectura2": {
+        "cita": "Juan (3,1-3",
+        "frase": "Dios nos llama “sus hijos”."
+      },
+      "evangelio": {
+        "cita": "5,1-12",
+        "frase": "Jesús, desde la montaña, enseñó que las personas amables, cariñosas y justas recibirán muchos regalos de Dios en el cielo."
+      }
+    }
   },
   {
     "date": "2023-11-05",
@@ -63,7 +153,21 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Malaquías 1, 14b-2, 2b. 8-10",
+        "frase": "Debemos ser buenos y escuchar a Dios, señor del Universo."
+      },
+      "lectura2": {
+        "cita": "1 Tesalonicenses 2, 7b-9. 13",
+        "frase": "Debemos compartir y cuidarnos unos a otros como una familia."
+      },
+      "evangelio": {
+        "cita": "23, 1-12",
+        "frase": "Ayudemos a los demás sin presumir ni ser egoístas."
+      }
+    }
   },
   {
     "date": "2023-11-12",
@@ -74,7 +178,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Sabiduría 6,12-16",
+        "frase": "Busquemos la sabiduría como un tesoro."
+      },
+      "salmo": {
+        "cita": "Salmo 62,2.3-4.5-6.7-8",
+        "frase": "Deseemos a Dios como queremos agua cuando tenemos sed."
+      },
+      "lectura2": {
+        "cita": "1 Tesalonicenses 4,13-17",
+        "frase": "Con Jesús, estaremos en el cielo."
+      },
+      "evangelio": {
+        "cita": "Mateo 25,1-13",
+        "frase": "Estemos siempre listos y preparados para Dios."
+      }
+    }
   },
   {
     "date": "2023-11-19",
@@ -85,7 +207,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Proverbios 31, 10-13, 19-20, 30-31",
+        "frase": "Quien es trabajador, bueno y ayuda a los demás, es como un tesoro ."
+      },
+      "salmo": {
+        "cita": "Salmo 127 (1-5",
+        "frase": "Si seguimos a Dios, seremos felices y bendecidos."
+      },
+      "lectura2": {
+        "cita": "1 Tesalonicenses 5, 1-6",
+        "frase": "Debemos estar siempre listos y hacer el bien, esperando a Jesús"
+      },
+      "evangelio": {
+        "cita": "Mateo 25, 14-15, 19-21",
+        "frase": "Usemos bien lo que se nos da y compartámoslo con los demás."
+      }
+    }
   },
   {
     "date": "2023-11-26",
@@ -96,7 +236,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Ezequiel 34,11-12.15-17",
+        "frase": "Dios nos cuida y nos busca siempre, como un pastor cuida de sus ovejas ."
+      },
+      "salmo": {
+        "cita": "Salmo 22,1-2a.2b-3.5.6",
+        "frase": "El Señor es como un pastor que nos da todo lo que necesitamos y nos mantiene seguros."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 15,20-26.28",
+        "frase": "Jesús nos enseña que siempre hay esperanza y vida después de la tristeza."
+      },
+      "evangelio": {
+        "cita": "Mateo 25,31-46",
+        "frase": "Jesús nos dice que ayudar a los demás es como ayudarle a Él."
+      }
+    }
   },
   {
     "date": "2023-12-03",
@@ -107,18 +265,54 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 63, 16b-17. 19b; 64, 2b-7",
+        "frase": "Dios es nuestro padre amoroso que siempre nos espera."
+      },
+      "salmo": {
+        "cita": "Salmo 79",
+        "frase": "Dios nos ayuda y nos protege ."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 1,3-9",
+        "frase": "Jesús nos invita a ser amigos y estar unidos."
+      },
+      "evangelio": {
+        "cita": "Marcos 13,33-37",
+        "frase": "Estemos siempre listos para recibir a Jesús."
+      }
+    }
   },
   {
     "date": "2023-12-08",
     "dateDisplay": "08/12/2023",
-    "description": "Viernes Inmaculada ConcepciÃ³n",
+    "description": "Viernes Inmaculada Concepción",
     "images": [
       "lectura1",
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Génesis 3, 9-15. 20",
+        "frase": "Adán y Eva desobedecieron a Dios en un jardín y se escondieron."
+      },
+      "salmo": {
+        "cita": "Sal 97,1.2-3ab.3c-4",
+        "frase": "Cantemos felices porque Dios ha hecho cosas buenas ."
+      },
+      "lectura2": {
+        "cita": "Efesios 1, 3-6. 11-12",
+        "frase": "Dios nos ama y nos hace parte de su gran familia."
+      },
+      "evangelio": {
+        "cita": "Lucas 1, 26-38",
+        "frase": "Un ángel le dijo a María que tendría un bebé especial: Jesús."
+      }
+    }
   },
   {
     "date": "2023-12-10",
@@ -129,7 +323,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Salmo 84:9ab-10.11-12.13-14",
+        "frase": "Dios nos dice que debemos consolar a los demás y preparar el camino para Él."
+      },
+      "salmo": {
+        "cita": "Sal 97,1.2-3ab.3c-4",
+        "frase": "Dios nos ofrece su amor y paz ."
+      },
+      "lectura2": {
+        "cita": "Pedro 3,8-14",
+        "frase": "Dios es paciente y nos promete un mundo lleno de justicia."
+      },
+      "evangelio": {
+        "cita": "Marcos 1,1-8",
+        "frase": "Juan el Bautista nos enseña a prepararnos para Jesús."
+      }
+    }
   },
   {
     "date": "2023-12-17",
@@ -140,7 +352,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Is 61,1-2a.10-11",
+        "frase": "Dios nos hace especiales para proclamar a todos que Él ha venido."
+      },
+      "salmo": {
+        "cita": "Lc 1,46-50.53-54",
+        "frase": "Magnificat"
+      },
+      "lectura2": {
+        "cita": "1 Tes 5,16-24",
+        "frase": "Dios quiere que estemos alegres y demos gracias siempre"
+      },
+      "evangelio": {
+        "cita": "Jn 1,6-8.19-28",
+        "frase": "Juan nos enseña sobre Jesús, la luz del mundo."
+      }
+    }
   },
   {
     "date": "2023-12-24",
@@ -151,7 +381,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "2 Samuel 7,1-5.8b-12.14a.16",
+        "frase": "Dios promete a David cosas maravillosas y que estará siempre con él."
+      },
+      "salmo": {
+        "cita": "Salmo 88, 2-3, 4-5, 27 y 29",
+        "frase": "Dios siempre nos ama y cuida, como un sol brillante que nunca se apaga."
+      },
+      "lectura2": {
+        "cita": "Rom 16,25-27",
+        "frase": "Las enseñanzas de Jesús muestran al mundo cómo es Dios."
+      },
+      "evangelio": {
+        "cita": "Lc 1,26-38",
+        "frase": "El ángel Gabriel le dice a María que tendrá un hijo especial: Jesús."
+      }
+    }
   },
   {
     "date": "2023-12-25",
@@ -161,7 +409,13 @@
       "lectura1",
       "salmo",
       "lectura2"
-    ]
+    ],
+    "readings": {
+      "evangelio": {
+        "cita": "Juan 1,1-18",
+        "frase": "El Verbo se hizo carne, y acampó entre nosotros."
+      }
+    }
   },
   {
     "date": "2024-01-14",
@@ -172,7 +426,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Samuel 3, 3b-10. 19",
+        "frase": "Escuchemos a Dios que nos habla ."
+      },
+      "salmo": {
+        "cita": "Sal 39, 2 y 4ab. 1. 8-9. 10",
+        "frase": "Debemos estar listos para hacer lo que Dios nos pide."
+      },
+      "lectura2": {
+        "cita": "Corintios 6, 13c-15a. 17-20",
+        "frase": "Nuestros cuerpos son un templo del Espíritu Santo."
+      },
+      "evangelio": {
+        "cita": "Juan 1, 35-42",
+        "frase": "Jesús, ¿dónde vives? Venid y lo veréis."
+      }
+    }
   },
   {
     "date": "2024-01-21",
@@ -183,7 +455,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Jonás 3, 1-5.10",
+        "frase": "Jonás ayuda a la gente de una gran ciudad a ser buena."
+      },
+      "salmo": {
+        "cita": "Salmo 24, 4-5ab.6-7bc.8-9",
+        "frase": "Dios nos muestra cómo amar y ser amables."
+      },
+      "lectura2": {
+        "cita": "Corintios 7, 29-31",
+        "frase": "Pablo nos enseña a ser felices y buenos amigos."
+      },
+      "evangelio": {
+        "cita": "Marcos 1,14-20",
+        "frase": "Jesús invita a sus amigos a seguirlo y compartir su amor."
+      }
+    }
   },
   {
     "date": "2024-01-28",
@@ -194,7 +484,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Deuteronomio 18, 15-20",
+        "frase": "Dios enviará a quién escuchar y seguir sus palabras."
+      },
+      "salmo": {
+        "cita": "Salmo 94",
+        "frase": "Dios nos invita a escucharle con el corazón y ser buenos amigos."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 7, 32-35",
+        "frase": "Seamos felices cuidando a nuestra familia."
+      },
+      "evangelio": {
+        "cita": "Marcos 1, 21-28",
+        "frase": "Jesús enseña con amor y poder, ayudando a todos a ser libres."
+      }
+    }
   },
   {
     "date": "2024-02-04",
@@ -205,7 +513,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Job 7,1-4,6-7",
+        "frase": "Aunque estemos cansados o tristes , Dios siempre está con nosotros."
+      },
+      "salmo": {
+        "cita": "Sal 146,1-2,3-4,5-6",
+        "frase": "Estemos contentos: Dios cura los corazones tristes."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 9,16-19,22-23",
+        "frase": "Pablo nos enseña a que compartamos las cosas buenas con todos."
+      },
+      "evangelio": {
+        "cita": "Marcos 1,29-39",
+        "frase": "Pidamos a Dios para ayudar a enfermos y necesitados."
+      }
+    }
   },
   {
     "date": "2024-02-11",
@@ -216,7 +542,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Lv. 13, 1-2. 44-46",
+        "frase": "Ayudamos a los enfermos a sentirse mejor."
+      },
+      "salmo": {
+        "cita": "Salmo 31",
+        "frase": "Dios nos ama y perdona siempre."
+      },
+      "lectura2": {
+        "cita": "1 Cor 10, 31–11, 1",
+        "frase": "Pablo nos enseña a que debemos hacer todo con amor para todos."
+      },
+      "evangelio": {
+        "cita": "Mc 1, 40-45",
+        "frase": "Jesús cuida a todos los que están tristes, sin excepción."
+      }
+    }
   },
   {
     "date": "2024-02-18",
@@ -227,7 +571,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Génesis 9, 8-15",
+        "frase": "Dios pone un arcoíris en el cielo, promesa de amor y protección."
+      },
+      "salmo": {
+        "cita": "Salmo 24, 4bc-5ab. 6-7bc. 8-9",
+        "frase": "Pedimos a Dios que nos enseñe a ser buenos y a seguir su camino."
+      },
+      "lectura2": {
+        "cita": "Pedro 3,18-22",
+        "frase": "Jesús nos muestra cómo amar a todos y nos invita a ser amigos de Dios."
+      },
+      "evangelio": {
+        "cita": "Marcos 1,12-15",
+        "frase": "Jesús va al desierto a anunciar que es tiempo de ser buenos y creer en Él."
+      }
+    }
   },
   {
     "date": "2024-02-25",
@@ -238,7 +600,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Génesis (22, 1-2, 9-13, 15-18",
+        "frase": "Abraham aprendió a confiar en Dios, sus planes siempre son buenos."
+      },
+      "salmo": {
+        "cita": "Salmo 115",
+        "frase": "Caminamos felices por el país de la vida, porque Dios nos quiere mucho."
+      },
+      "lectura2": {
+        "cita": "Romanos 8, 31b-34",
+        "frase": "Dios nos ama tanto que nos dio a Jesús para que siempre estemos con Él."
+      },
+      "evangelio": {
+        "cita": "Marcos (9, 2-10",
+        "frase": "Los Apóstoles vieron a Jesús brillar con luz especial porque es Hijo de Dios."
+      }
+    }
   },
   {
     "date": "2024-03-03",
@@ -249,7 +629,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Éxodo (20,1-17",
+        "frase": "Dios nos enseña los Diez Mandamientos."
+      },
+      "salmo": {
+        "cita": "Salmo 18, 8-11",
+        "frase": "Las palabras de Dios son como un tesoro que nos hace felices y sabios."
+      },
+      "lectura2": {
+        "cita": "Corintios 1, 22-25",
+        "frase": "A veces no entendemos a Dios, pero Él es más sabio y fuerte que todos."
+      },
+      "evangelio": {
+        "cita": "Juan 2,13-25",
+        "frase": "Jesús nos enseña que los lugares de oración son sitios de respeto y amor."
+      }
+    }
   },
   {
     "date": "2024-03-10",
@@ -260,7 +658,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Crónicas 36, 14-16; 19-23",
+        "frase": "Trabajando juntos, hacemos cosas buenas."
+      },
+      "salmo": {
+        "cita": "Salmo 136",
+        "frase": "Siempre recordamos lo que es importante."
+      },
+      "lectura2": {
+        "cita": "Efesios 2, 4-10",
+        "frase": "Dios nos ama y nos salva."
+      },
+      "evangelio": {
+        "cita": "Juan 3, 14-21",
+        "frase": "Jesús vino al mundo para que seamos buenos y llevarnos a Dios."
+      }
+    }
   },
   {
     "date": "2024-03-17",
@@ -271,12 +687,30 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Jeremías 31, 31-34",
+        "frase": "Dios nos dice: “Seré tu amigo siempre y te enseñaré a amar”."
+      },
+      "salmo": {
+        "cita": "",
+        "frase": "Pedimos a Dios: “Ayúdanos a ser buenos y felices”."
+      },
+      "lectura2": {
+        "cita": "Hebreos 5,7-9",
+        "frase": "Jesús nos enseña a escuchar y ser valientes."
+      },
+      "evangelio": {
+        "cita": "Juan 12, 20-33",
+        "frase": "Como un grano que cae y crece, ser generosos llenará el mundo de alegría."
+      }
+    }
   },
   {
     "date": "2024-03-24",
     "dateDisplay": "24/03/2024",
-    "description": "Domingo D PasiÃ³n",
+    "description": "Domingo D Pasión",
     "images": [
       "lectura1",
       "salmo",
@@ -290,16 +724,28 @@
     "images": [
       "lectura1",
       "salmo"
-    ]
+    ],
+    "readings": {
+      "evangelio": {
+        "cita": "13, 1-15",
+        "frase": "Os he dado ejemplo para que lo que yo he hecho con vosotros, vosotros también lo hagáis."
+      }
+    }
   },
   {
     "date": "2024-03-31",
     "dateDisplay": "31/03/2024",
-    "description": "Domingo de ResurrecciÃ³n",
+    "description": "Domingo de Resurrección",
     "images": [
       "lectura1",
       "salmo"
-    ]
+    ],
+    "readings": {
+      "evangelio": {
+        "cita": "20, 1-9",
+        "frase": "Y al tercer día, resucitó."
+      }
+    }
   },
   {
     "date": "2024-04-07",
@@ -310,7 +756,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Hechos de los Apóstoles 4, 32-35",
+        "frase": "Los primeros cristianos compartían lo que tenían y cuidaban unos de otros."
+      },
+      "salmo": {
+        "cita": "Salmo 117, 2-4.16ab-18.22-24",
+        "frase": "La piedra que desecharon los arquitectos es ahora la piedra angular."
+      },
+      "lectura2": {
+        "cita": "1 Juan 5, 1-6",
+        "frase": "Amemos a Dios y guardemos sus mandamientos."
+      },
+      "evangelio": {
+        "cita": "Juan 20, 19-31",
+        "frase": "Bienaventurados los que crean sin haber visto."
+      }
+    }
   },
   {
     "date": "2024-04-14",
@@ -321,7 +785,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Hechos de los Apóstoles 3, 13-15; 17-19",
+        "frase": "Pedro nos enseña que pedir perdón es bueno."
+      },
+      "salmo": {
+        "cita": "Salmo 4, 2. 4. 7. 9",
+        "frase": "Habla con Dios cuando estés triste, él te escucha."
+      },
+      "lectura2": {
+        "cita": "1 Juan 2, 1-5",
+        "frase": "Mostramos nuestro amor a Dios cuando hacemos lo correcto."
+      },
+      "evangelio": {
+        "cita": "Lucas 24, 35-48",
+        "frase": "Es importante compartir y amar, como nos mostró Jesús."
+      }
+    }
   },
   {
     "date": "2024-10-06",
@@ -332,7 +814,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Génesis 2, 18-24",
+        "frase": "Dios creó a la mujer y al hombre para que juntos formaran una familia."
+      },
+      "salmo": {
+        "cita": "Salmo 127",
+        "frase": "Dios bendice a las familias que lo aman y siguen sus caminos."
+      },
+      "lectura2": {
+        "cita": "Hebreos 2, 9-11",
+        "frase": "Jesús sufrió por nosotros y ahora nos llama sus hermanos."
+      },
+      "evangelio": {
+        "cita": "Marcos 10, 2-16",
+        "frase": "Jesús ama a los niños y nos pide ser como ellos para ir al reino de Dios."
+      }
+    }
   },
   {
     "date": "2024-10-13",
@@ -343,7 +843,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Sabiduría 7, 7-11",
+        "frase": "La sabiduría nos hace felices,  es mejor que los tesoros."
+      },
+      "salmo": {
+        "cita": "Salmo 89",
+        "frase": "Señor, haznos felices con tu amor para siempre poder sonreír."
+      },
+      "lectura2": {
+        "cita": "Hebreos 4, 12-13",
+        "frase": "La Palabra de Dios es Luz para nosotros."
+      },
+      "evangelio": {
+        "cita": "Marcos 10, 17-30",
+        "frase": "AMAR ES MÁS IMPORTANTE QUE TENER MUCHAS COSAS."
+      }
+    }
   },
   {
     "date": "2024-10-20",
@@ -354,7 +872,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 53, 10-11",
+        "frase": "Dios ENVIÓ a JESÚS PARA QUE APRENDAMOS QUÉ ES amar."
+      },
+      "salmo": {
+        "cita": "Salmo 32, 4-5. 18-19. 20 y 22",
+        "frase": "DIOS SIEMPRE CUIDA DE LOS QUE LE PIDEN AYUDA."
+      },
+      "lectura2": {
+        "cita": "Hebreos 4, 14-16",
+        "frase": "JESÚS NOS AYUDA CUANDO LO NECESITAMOS."
+      },
+      "evangelio": {
+        "cita": "Marcos 10, 35-45",
+        "frase": "AYUDAR Y AMAR A LOS DEMÁS ES LO MÁS IMPORTANTE."
+      }
+    }
   },
   {
     "date": "2024-10-27",
@@ -365,7 +901,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Jeremías 31, 7-9",
+        "frase": "Dios dice que cuidará a su pueblo y lo llevará a casa."
+      },
+      "salmo": {
+        "cita": "Salmo 125",
+        "frase": "la bondad de Dios trae alegría después de tiempos difíciles."
+      },
+      "lectura2": {
+        "cita": "Hebreos 4, 14-16",
+        "frase": "Jesús nos cuida y nos ayuda a acercarnos a Dios."
+      },
+      "evangelio": {
+        "cita": "Marcos 10, 35-45",
+        "frase": "JESÚS LE DEVUELVE LA VISTA A UN CIEGO QUE CONFIÓ EN ÉL."
+      }
+    }
   },
   {
     "date": "2024-11-03",
@@ -376,7 +930,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Deuteronomio 6, 2-6",
+        "frase": "AMARÁS A DIOS CON TODO TU CORAZÓN, ALMA Y FUERZA."
+      },
+      "salmo": {
+        "cita": "Salmo 17, 2-3a. 3bc-4. 47 y 51ab",
+        "frase": "Señor, tú eres mi fortaleza."
+      },
+      "lectura2": {
+        "cita": "Hebreos 7, 23-28",
+        "frase": "Jesús siempre nos ayuda a acercarnos a Dios."
+      },
+      "evangelio": {
+        "cita": "Marcos 12, 28b-34",
+        "frase": "LOS MANDAMIENTOS MÁS GRANDES SON AMAR A DIOS Y A LOS DEMÁS."
+      }
+    }
   },
   {
     "date": "2024-11-10",
@@ -387,7 +959,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "1 Reyes 17, 10-16",
+        "frase": "DIOS CUIDA DE QUIENES DAN A LOS DEMÁS."
+      },
+      "salmo": {
+        "cita": "Salmo 145, 7. 8-9a. 9bc-10",
+        "frase": "Dios es bueno y ayuda a todos."
+      },
+      "lectura2": {
+        "cita": "Hebreos 9, 24-28",
+        "frase": "Jesús fue al cielo para ayudarnos."
+      },
+      "evangelio": {
+        "cita": "Marcos 12, 38-44",
+        "frase": "DAR CON AMOR, AUNQUE SEA POCO, ES LO IMPORTANTE."
+      }
+    }
   },
   {
     "date": "2024-11-17",
@@ -398,7 +988,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Daniel 12, 1-3",
+        "frase": "DIOS MANDARÁ QUIEN NOS CUIDE EN LA NECESIDAD."
+      },
+      "salmo": {
+        "cita": "Salmo 15, 5. 8. 9-10. 11",
+        "frase": "Dios NOS PROTEGE, ES NUESTRO REFUGIO."
+      },
+      "lectura2": {
+        "cita": "Hebreos 9, 24-28",
+        "frase": "JESÚS SE OFRECIÓ PARA SALVARNOS."
+      },
+      "evangelio": {
+        "cita": "Marcos 12, 38-44",
+        "frase": "DEBEMOS PREPARARNOS PARA CUANDO JESÚS VENGA."
+      }
+    }
   },
   {
     "date": "2024-11-24",
@@ -409,7 +1017,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Daniel 7, 13-14",
+        "frase": "Jesús VENDRÁ A ser nuestro Rey para siempre."
+      },
+      "salmo": {
+        "cita": "Salmo 92",
+        "frase": "Dios es nuestro Rey y está lleno de poder y amor."
+      },
+      "lectura2": {
+        "cita": "Apocalipsis 1, 5-8",
+        "frase": "JESÚS NOS AMA Y NOS HA HECHO PARTE DE SU FAMILIA PARA SIEMPRE."
+      },
+      "evangelio": {
+        "cita": "Juan 18, 33b-37",
+        "frase": "JESÚS, NUESTRO REY, VINO PARA ENSEÑARNOS LA VERDAD."
+      }
+    }
   },
   {
     "date": "2024-12-01",
@@ -420,7 +1046,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Jeremías 33, 14-16",
+        "frase": "UN VÁSTGO DE DAVID guiARÁ y cuidARÁ AL PUEBLO DE DIOS."
+      },
+      "salmo": {
+        "cita": "Salmo 24(25",
+        "frase": "Dios nos enseña el mejor camino y es bueno con nosotros."
+      },
+      "lectura2": {
+        "cita": "1 Tesalonicenses 3, 12–4, 2",
+        "frase": "HAGAMOS EL BIEN PREPARÁNDONOS A CUANDO JESÚS VENGA."
+      },
+      "evangelio": {
+        "cita": "Lc 21, 25-28. 34-36",
+        "frase": "ESTEMOS PREPARADOS: JESÚS VOLVERÁ EN CUALQUIER MOMENTO."
+      }
+    }
   },
   {
     "date": "2024-12-08",
@@ -431,7 +1075,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Génesis 3, 9-15.20",
+        "frase": "Dios ENVIARÁ a alguien especial para vencer al mal y salvarnos."
+      },
+      "salmo": {
+        "cita": "Salmo 97",
+        "frase": "Alabamos a Dios porque hace cosas maravillosas."
+      },
+      "lectura2": {
+        "cita": "Efesios 1, 3-6.11-12",
+        "frase": "DIOS NOS HA ELEGIDO PARA SER SUS HIJOS Y VIVIR EN SU AMOR."
+      },
+      "evangelio": {
+        "cita": "Lucas 1, 26-38",
+        "frase": "MARÍA DIJO SÍ A SER LA MAMÁ DE JESÚS."
+      }
+    }
   },
   {
     "date": "2024-12-15",
@@ -442,7 +1104,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Sofonías 3, 14-18a",
+        "frase": "Dios está feliz con nosotros y nos cuida con amor."
+      },
+      "salmo": {
+        "cita": "Isaías 12, 2-3. 4bcd. 5-6",
+        "frase": "Cantemos FELICES: Dios nos salva y nos quiere mucho."
+      },
+      "lectura2": {
+        "cita": "Filipenses 4, 4-7",
+        "frase": "ESTEMOS SIEMPRE FELICES Y PIDAMOS AYUDA A DIOS."
+      },
+      "evangelio": {
+        "cita": "Lucas 3, 10-18",
+        "frase": "JUAN EL BAUTISTA ENSEÑA A COMPARTIR Y SER BUENOS CON LOS DEMÁS."
+      }
+    }
   },
   {
     "date": "2024-12-22",
@@ -453,16 +1133,40 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Miqueas 5,1-4",
+        "frase": "EN Belén nacerá QUIEN cuidará a todos con amor y traerá paz."
+      },
+      "salmo": {
+        "cita": "Salmo 79, 2ac y 3b. 15-16. 18-19",
+        "frase": "QUE Dios nos cuidE y nos salve, como un buen pastor."
+      },
+      "lectura2": {
+        "cita": "Hebreos 10, 5-10",
+        "frase": "JESÚS VINO A MOSTRARNOS A DIOS Y ENSEÑARNOS A SER BUENOS."
+      },
+      "evangelio": {
+        "cita": "Lucas 1, 39-45",
+        "frase": "MARÍA VISITA A ISABEL Y AMBAS SE ALEGRAN: JESÚS VA A NACER."
+      }
+    }
   },
   {
     "date": "2024-12-25",
     "dateDisplay": "25/12/2024",
-    "description": "MiÃ©rcoles Navidad",
+    "description": "Miércoles Navidad",
     "images": [
       "lectura1",
       "salmo"
-    ]
+    ],
+    "readings": {
+      "evangelio": {
+        "cita": "Juan 1, 1-18",
+        "frase": "JESÚS ES LA PALABRA DE DIOS QUE EXISTÍA DESDE EL PRINCIPIO. VINO AL MUNDO PARA TRAERNOS LUZ Y AMOR, Y HACERNOS HIJOS DE DIOS."
+      }
+    }
   },
   {
     "date": "2024-12-29",
@@ -473,7 +1177,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Eclesiástico 3, 2-6.12-14",
+        "frase": "HONRA A TUS PADRES, CUÍDALOS CON AMOR."
+      },
+      "salmo": {
+        "cita": "Sal 127,1-2.3.4-5",
+        "frase": "Feliz la familia que sigue los caminos de Dios."
+      },
+      "lectura2": {
+        "cita": "Colosenses 3,12-21",
+        "frase": "DIOS NOS AMA, REFLEJÉMOSLO EN NUESTRA FAMILIA."
+      },
+      "evangelio": {
+        "cita": "Lc 2, 41-52",
+        "frase": "JESÚS, CUIDADO POR MARÍA Y JOSÉ, CRECÍA EN SABIDURÍA Y AMOR."
+      }
+    }
   },
   {
     "date": "2025-01-12",
@@ -484,7 +1206,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 42, 1-4. 6-7",
+        "frase": "DIOS ELIGE A SU SIERVO PARA TRAER JUSTICIA Y LUZ AL MUNDO."
+      },
+      "salmo": {
+        "cita": "Sal 28, 1a y 2. 3ac-4. 3b y 9b-10",
+        "frase": "La voz de Dios es poderosa y llena de gloria."
+      },
+      "lectura2": {
+        "cita": "Hechos 10, 34-38",
+        "frase": "JESÚS HACE EL BIEN Y SANA A LOS QUE SUFREN."
+      },
+      "evangelio": {
+        "cita": "Lucas 3, 15-16. 21-22",
+        "frase": "JESÚS ES BAUTIZADO Y DIOS DICE: “ESTE ES MI HIJO AMADO.”"
+      }
+    }
   },
   {
     "date": "2025-01-19",
@@ -495,7 +1235,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 62, 1-5",
+        "frase": "DIOS AMA A SU PUEBLO COMO UN ESPOSO AMA A SU ESPOSA."
+      },
+      "salmo": {
+        "cita": "Salmo 95(96",
+        "frase": "Cantemos y digamos lo bueno que es Dios."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 12, 4-11",
+        "frase": "DIOS NOS DA DIFERENTES DONES PARA AYUDAR A LOS DEMÁS."
+      },
+      "evangelio": {
+        "cita": "Juan 2, 1-11",
+        "frase": "DIOS TRANSFORMA LO PEQUEÑO EN ALGO GRANDE."
+      }
+    }
   },
   {
     "date": "2025-01-26",
@@ -506,7 +1264,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Nehemías 8, 2-4a. 5-6. 8-10",
+        "frase": "ESCUCHA LA PALABRA DE DIOS Y SÉ FELIZ."
+      },
+      "salmo": {
+        "cita": "Salmo 18",
+        "frase": "Dios nos enseña el mejor camino."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 12, 12-30",
+        "frase": "TODOS SOMOS IMPORTANTES: FORMAMOS EL CUERPO DE DIOS."
+      },
+      "evangelio": {
+        "cita": "Lucas 1, 1-4; 4, 14-21",
+        "frase": "JESÚS NOS DICE QUE HA VENIDO A TRAER LUZ AL MUNDO."
+      }
+    }
   },
   {
     "date": "2025-02-02",
@@ -517,7 +1293,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Malaquías 3, 1-4",
+        "frase": "DIOS ENVIARÁ A ALGUIEN ESPECIAL PARA PREPARARNOS."
+      },
+      "salmo": {
+        "cita": "Salmo 23, 7-10",
+        "frase": "Abramos las puertas al Rey de la gloria."
+      },
+      "lectura2": {
+        "cita": "Hebreos 2, 14-18",
+        "frase": "JESÚS SE HIZO COMO NOSOTROS PARA VENCER EL MAL Y SALVARNOS."
+      },
+      "evangelio": {
+        "cita": "Lucas 2, 22-40",
+        "frase": "JESÚS FUE PRESENTADO EN EL TEMPLO PORQUE ES LA LUZ."
+      }
+    }
   },
   {
     "date": "2025-02-09",
@@ -528,7 +1322,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 6, 1-2a. 3-8",
+        "frase": "ISAÍAS VE A DIOS EN SU TRONO Y DICE: \"AQUÍ ESTOY, ENVÍAME\"."
+      },
+      "salmo": {
+        "cita": "Salmo 137",
+        "frase": "Damos gracias a Dios porque nos escucha y nos cuida."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 15, 1-11",
+        "frase": "JESÚS MURIÓ Y RESUCITÓ PARA SALVARNOS."
+      },
+      "evangelio": {
+        "cita": "Lucas 5, 1-11",
+        "frase": "JESÚS AYUDA A PEDRO A PESCAR Y LO INVITA A SEGUIRLO."
+      }
+    }
   },
   {
     "date": "2025-02-16",
@@ -539,7 +1351,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Jeremías 17, 5-8",
+        "frase": "CONFÍA EN DIOS Y SERÁS FUERTE COMO UN ÁRBOL JUNTO AL RÍO."
+      },
+      "salmo": {
+        "cita": "Del Salmo 1",
+        "frase": "ama a Dios Y darás buenos frutos como un árbol sano."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 15, 12. 16-20",
+        "frase": "JESÚS RESUCITÓ Y NOS DA VIDA PARA SIEMPRE."
+      },
+      "evangelio": {
+        "cita": "Lucas 6, 17. 20-26",
+        "frase": "JESÚS AMA A LOS QUE SUFREN Y LES PROMETE ALEGRÍA EN EL CIELO."
+      }
+    }
   },
   {
     "date": "2025-02-23",
@@ -550,7 +1380,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Samuel 26, 2. 7-9. 12-13. 22-23",
+        "frase": "EL AMOR Y EL PERDÓN SON MÁS FUERTES QUE LA VENGANZA."
+      },
+      "salmo": {
+        "cita": "del Salmo 102",
+        "frase": "Dios es muy bueno y siempre nos perdona."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 15, 45-49",
+        "frase": "JESÚS NOS DA UNA NUEVA VIDA LLENA DE AMOR."
+      },
+      "evangelio": {
+        "cita": "Lucas 6, 27-38",
+        "frase": "JESÚS NOS ENSEÑA A AMAR A TODOS, INCLUSO SI NOS TRATAN MAL."
+      }
+    }
   },
   {
     "date": "2025-03-02",
@@ -561,7 +1409,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Eclesiástico 27, 4-7 ",
+        "frase": "TUS PALABRAS MUESTRAN CÓMO ES TU CORAZÓN."
+      },
+      "salmo": {
+        "cita": "del Salmo 91",
+        "frase": "ES BUENO DAR GRACIAS A DIOS SIEMPRE."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 15, 54-58 ",
+        "frase": "JESÚS NOS DA LA VICTORIA PARA VIVIR PARA SIEMPRE."
+      },
+      "evangelio": {
+        "cita": "Lucas 6, 39-45 ",
+        "frase": "AYUDA A LOS DEMÁS CON UN CORAZÓN BUENO."
+      }
+    }
   },
   {
     "date": "2025-03-09",
@@ -572,7 +1438,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Deuteronomio 26, 4-10 ",
+        "frase": "DIOS NOS LLEVÓ A UNA TIERRA BONITA Y LLENA DE REGALOS."
+      },
+      "salmo": {
+        "cita": "Salmo 90 (91",
+        "frase": "Dios nos protege y nos cuida siempre."
+      },
+      "lectura2": {
+        "cita": "Romanos 10, 8-13 ",
+        "frase": "SI CREEMOS EN JESÚS, ESTAREMOS CON ÉL SIEMPRE."
+      },
+      "evangelio": {
+        "cita": "Lucas 4, 1-13 ",
+        "frase": "JESÚS DIJO “NO” A LA TENTACIÓN Y SIGUIÓ A DIOS."
+      }
+    }
   },
   {
     "date": "2025-03-16",
@@ -583,7 +1467,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Génesis 15, 5-12. 17-18 ",
+        "frase": "DIOS PROMETIÓ A ABRAHAM TANTA FAMILIA COMO LAS ESTRELLAS."
+      },
+      "salmo": {
+        "cita": "Salmo 26",
+        "frase": "Dios me cuida, no tengo miedo."
+      },
+      "lectura2": {
+        "cita": "Filipenses 3, 17–4, 1 ",
+        "frase": "JESÚS NOS QUIERE CON ÉL EN EL CIELO."
+      },
+      "evangelio": {
+        "cita": "Lucas 9, 28b-36 ",
+        "frase": "JESÚS BRILLÓ EN LA MONTAÑA PARA MOSTRAR SU GLORIA."
+      }
+    }
   },
   {
     "date": "2025-03-23",
@@ -594,7 +1496,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Éxodo 3, 1-8a. 13-15 ",
+        "frase": "MOISÉS SE ACERCÓ A LA ZARZA QUE ARDÍA Y DIOS ESTABA ALLÍ."
+      },
+      "salmo": {
+        "cita": "Salmo 102(103",
+        "frase": "Dios siempre nos cuida."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 10, 1-6. 10-12 ",
+        "frase": "HAZ EL BIEN Y SIGUE A DIOS."
+      },
+      "evangelio": {
+        "cita": "Lucas 13, 1-9 ",
+        "frase": "DIOS TIENE PACIENCIA Y QUIERE QUE DEMOS FRUTOS BUENOS."
+      }
+    }
   },
   {
     "date": "2025-03-30",
@@ -605,7 +1525,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Josué 5, 9a. 10-12 ",
+        "frase": "DIOS NOS DA COMIDA BUENA Y UNA TIERRA BONITA."
+      },
+      "salmo": {
+        "cita": "Salmo 33, 2-7",
+        "frase": "EL SEÑOR ES BUENO Y CUIDA DE NOSOTROS."
+      },
+      "lectura2": {
+        "cita": "2 Corintios 5, 17-21 ",
+        "frase": "CON JESÚS, SOMOS NUEVOS Y FELICES."
+      },
+      "evangelio": {
+        "cita": "Lucas 15, 1-3. 11-32 ",
+        "frase": "DIOS SIEMPRE NOS PERDONA Y NOS ABRAZA."
+      }
+    }
   },
   {
     "date": "2025-04-06",
@@ -616,7 +1554,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Josué 5, 9a. 10-12 ",
+        "frase": "DIOS NOS DA COMIDA BUENA Y UNA TIERRA BONITA."
+      },
+      "salmo": {
+        "cita": "Salmo 33, 2-7",
+        "frase": "EL SEÑOR ES BUENO Y CUIDA DE NOSOTROS."
+      },
+      "lectura2": {
+        "cita": "2 Corintios 5, 17-21 ",
+        "frase": "CON JESÚS, SOMOS NUEVOS Y FELICES."
+      },
+      "evangelio": {
+        "cita": "Lucas 15, 1-3. 11-32 ",
+        "frase": "DIOS SIEMPRE NOS PERDONA Y NOS ABRAZA."
+      }
+    }
   },
   {
     "date": "2025-04-13",
@@ -631,7 +1587,7 @@
   {
     "date": "2025-04-20",
     "dateDisplay": "20/04/2025",
-    "description": "Domingo de ResurrecciÃ³n",
+    "description": "Domingo de Resurrección",
     "images": [
       "lectura1",
       "salmo"
@@ -646,7 +1602,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Hechos 5, 12-16",
+        "frase": "LOS AMIGOS DE JESÚS AYUDABAN A LOS ENFERMOS Y TODOS SANABAN."
+      },
+      "salmo": {
+        "cita": "Salmo 117, 2-4. 22-24. 25-27a",
+        "frase": "DIOS NOS QUIERE MUCHO Y SIEMPRE NOS AYUDA."
+      },
+      "lectura2": {
+        "cita": "Apocalipsis 1, 9-11a. 12-13. 17-19 ",
+        "frase": "JESÚS ESTÁ VIVO Y SIEMPRE CUIDA DE NOSOTROS."
+      },
+      "evangelio": {
+        "cita": "Juan 20, 19-31 ",
+        "frase": "JESÚS RESUCITÓ Y NOS DA SU PAZ."
+      }
+    }
   },
   {
     "date": "2025-09-21",
@@ -657,7 +1631,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Amós 8, 47",
+        "frase": "Dios quiere que tratemos bien a los pobres ."
+      },
+      "salmo": {
+        "cita": "Salmo 113 (112",
+        "frase": "Dios levanta a los que están tristes."
+      },
+      "lectura2": {
+        "cita": "1 Timoteo 2:18",
+        "frase": "Recemos por todos con amor."
+      },
+      "evangelio": {
+        "cita": "Lucas 16:113",
+        "frase": "Usemos bien lo que se nos da y compartámoslo con los demás."
+      }
+    }
   },
   {
     "date": "2025-09-28",
@@ -666,7 +1658,13 @@
     "images": [
       "lectura1",
       "salmo"
-    ]
+    ],
+    "readings": {
+      "evangelio": {
+        "cita": "Lucas 16, 19-31 ",
+        "frase": "UNA MESA PARA COMPARTIR."
+      }
+    }
   },
   {
     "date": "2025-10-12",
@@ -677,7 +1675,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "2 Reyes 5,14-17",
+        "frase": "Naamán obedeció y Dios lo curó; ¡gracias, Señor! ."
+      },
+      "salmo": {
+        "cita": "Salmo 98(97",
+        "frase": "Cantamos a Dios porque nos cuida y salva."
+      },
+      "lectura2": {
+        "cita": "2 Timoteo 2,8-13",
+        "frase": "Jesús nunca nos falla; sigamos con Él."
+      },
+      "evangelio": {
+        "cita": "Lucas 17,11-19",
+        "frase": "Jesús nos sana y se alegra cuando damos las gracias."
+      }
+    }
   },
   {
     "date": "2025-10-19",
@@ -688,7 +1704,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Éxodo 17, 8‑13",
+        "frase": "Dios nos ayuda cuando rezamos juntos.."
+      },
+      "salmo": {
+        "cita": "Salmo 121, 1‑8",
+        "frase": "Dios siempre me cuida."
+      },
+      "lectura2": {
+        "cita": "2 Timoteo 3,14‑4,2",
+        "frase": "La Palabra de Dios me enseña a hacer el bien."
+      },
+      "evangelio": {
+        "cita": "Lucas 18, 18",
+        "frase": "Reza siempre y no te canses."
+      }
+    }
   },
   {
     "date": "2025-10-26",
@@ -699,7 +1733,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Eclesiástico 35, 12-14.16-19a",
+        "frase": "Dios escucha con cariño al que pide ayuda."
+      },
+      "salmo": {
+        "cita": "Salmo 33, 2-3.17-18.19 y 23",
+        "frase": "Dios nos oye y nos cuida."
+      },
+      "lectura2": {
+        "cita": "2 Timoteo 4, 6-8.16-18",
+        "frase": "Con Jesús ganamos el premio del bien."
+      },
+      "evangelio": {
+        "cita": "Lucas 18, 9-14",
+        "frase": "A Dios le gusta el corazón humilde."
+      }
+    }
   },
   {
     "date": "2025-11-02",
@@ -710,18 +1762,54 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Ap 21, 1-5a.6b-7",
+        "frase": "DIOS HACE TODO NUEVO Y NOS SECA LAS LÁGRIMAS."
+      },
+      "salmo": {
+        "cita": "Salmo 24(25",
+        "frase": "A TI, SEÑOR, LEVANTO MI ALMA."
+      },
+      "lectura2": {
+        "cita": "2 Timoteo 4, 6-8.16-18",
+        "frase": "NUESTRA CASA ESTÁ EN EL CIELO CON JESÚS, QUE NOS HARÁ COMO ÉL."
+      },
+      "evangelio": {
+        "cita": "Lucas 18, 9-14",
+        "frase": "YO SOY LA VIDA PARA SIEMPRE; QUIEN CONFÍA EN MÍ VIVE."
+      }
+    }
   },
   {
     "date": "2025-11-09",
     "dateDisplay": "09/11/2025",
-    "description": "Domingo D XXXII BasÃ­lica de LetrÃ¡n",
+    "description": "Domingo D XXXII Basílica de Letrán",
     "images": [
       "lectura1",
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Ezequiel 47, 1-2.8-9.12",
+        "frase": "EL AGUA DE DIOS DA VIDA Y ALEGRÍA."
+      },
+      "salmo": {
+        "cita": "Sal 45(46",
+        "frase": "DIOS CUIDA NUESTRA CIUDAD Y NUESTRO CORAZÓN."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 3, 9c-11.16-17",
+        "frase": "TU CORAZÓN ES CASA DE DIOS: CUÍDALO MUCHO."
+      },
+      "evangelio": {
+        "cita": "Juan 2, 13-22",
+        "frase": "JESÚS CUIDA LA CASA DE DIOS, LUGAR DE ORACIÓN Y AMOR."
+      }
+    }
   },
   {
     "date": "2025-11-16",
@@ -732,7 +1820,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Malaquías 3, 19-20a",
+        "frase": "DIOS CUIDA A LOS BUENOS COMO UN SOL CALENTITO."
+      },
+      "salmo": {
+        "cita": "Salmo 97(98",
+        "frase": "CANTAMOS FELICES A DIOS."
+      },
+      "lectura2": {
+        "cita": "2 Tesalonicenses 3, 7-12",
+        "frase": "AYUDO Y TRABAJO CON ALEGRÍA."
+      },
+      "evangelio": {
+        "cita": "Lucas 21, 5-19",
+        "frase": "JESÚS ESTÁ CON NOSOTROS."
+      }
+    }
   },
   {
     "date": "2025-11-30",
@@ -743,7 +1849,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 2, 1-5",
+        "frase": "DIOS NOS LLAMA A VIVIR EN PAZ."
+      },
+      "salmo": {
+        "cita": "Salmo 122 (121",
+        "frase": "VAMOS FELICES A LA CASA DE DIOS."
+      },
+      "lectura2": {
+        "cita": "Romanos 13, 11-14",
+        "frase": "DESPERTEMOS Y VIVAMOS COMO AMIGOS DE JESÚS."
+      },
+      "evangelio": {
+        "cita": "Mateo 24, 37-44",
+        "frase": "JESÚS QUIERE QUE ESTEMOS LISTOS HACIENDO EL BIEN."
+      }
+    }
   },
   {
     "date": "2025-12-07",
@@ -754,7 +1878,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 2, 1-5",
+        "frase": "DIOS NOS PROMETE UN REY MUY BUENO QUE TRAE PAZ."
+      },
+      "salmo": {
+        "cita": "Salmo 72(71",
+        "frase": "DIOS CUIDA A LOS PEQUEÑOS Y NECESITADOS."
+      },
+      "lectura2": {
+        "cita": "Romanos 15, 4-9",
+        "frase": "JESÚS NOS UNE COMO FAMILIA."
+      },
+      "evangelio": {
+        "cita": "Mateo 3, 1-12",
+        "frase": "PREPARA TU CORAZÓN PARA JESÚS."
+      }
+    }
   },
   {
     "date": "2025-12-14",
@@ -765,7 +1907,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 35, 1-6a.10",
+        "frase": "CUANDO DIOS LLEGA, TODO CAMBIA PARA BIEN."
+      },
+      "salmo": {
+        "cita": "Salmo 146",
+        "frase": "DIOS NOS QUIERE Y NOS CUIDA SIEMPRE."
+      },
+      "lectura2": {
+        "cita": "Santiago 5, 7-10",
+        "frase": "ESPERAMOS CON CALMA Y CONFIANZA EN DIOS."
+      },
+      "evangelio": {
+        "cita": "Mateo 11, 2-11",
+        "frase": "JESÚS HACE EL BIEN Y NOS QUIERE MUCHO."
+      }
+    }
   },
   {
     "date": "2025-12-21",
@@ -776,18 +1936,54 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 7, 10-14",
+        "frase": "DIOS PROMETE QUE VENDRÁ UN BEBÉ MUY ESPECIAL."
+      },
+      "salmo": {
+        "cita": "Salmo 24",
+        "frase": "TODO EL MUNDO Y TODO LO QUE HAY ES DE DIOS."
+      },
+      "lectura2": {
+        "cita": "Romanos 1, 1-7",
+        "frase": "SAN PABLO NOS DICE QUE JESÚS NOS QUIERE MUCHO."
+      },
+      "evangelio": {
+        "cita": "Mateo 1, 18-24",
+        "frase": "DIOS MANDA UN ÁNGEL PARA QUE JOSÉ CUIDE A MARÍA."
+      }
+    }
   },
   {
     "date": "2026-01-11",
     "dateDisplay": "11/01/2026",
-    "description": "Domingo D I Bautismo del SeÃ±or",
+    "description": "Domingo D I Bautismo del Señor",
     "images": [
       "lectura1",
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 42:1-4, 6-7",
+        "frase": "JESÚS VIENE A CUIDAR Y AYUDAR A TODOS."
+      },
+      "salmo": {
+        "cita": "Salmo 29:1-4, 9-10",
+        "frase": "GRACIAS, DIOS, PORQUE NOS QUIERES."
+      },
+      "lectura2": {
+        "cita": "Hechos 10:34-38",
+        "frase": "JESÚS HACE EL BIEN Y NOS AMA."
+      },
+      "evangelio": {
+        "cita": "Mateo 3:13-17",
+        "frase": "JESÚS ES EL HIJO QUERIDO DE DIOS."
+      }
+    }
   },
   {
     "date": "2026-01-18",
@@ -798,7 +1994,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 49, 3.5-6",
+        "frase": "DIOS NOS MANDA A LLEVAR SU LUZ A LOS DEMÁS."
+      },
+      "salmo": {
+        "cita": "Salmo 39, 2 y 4ab. 7-8a. 8b-9. 10",
+        "frase": "QUIERO HACER LO QUE DIOS QUIERE."
+      },
+      "lectura2": {
+        "cita": "Corintios 1, 1-3",
+        "frase": "DIOS NOS DA PAZ Y NOS QUIERE UNIDOS."
+      },
+      "evangelio": {
+        "cita": "Juan 1, 29-34",
+        "frase": "JESÚS ES EL HIJO DE DIOS Y NOS SALVA."
+      }
+    }
   },
   {
     "date": "2026-01-25",
@@ -809,7 +2023,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 8, 23b – 9, 3",
+        "frase": "DIOS NOS DA LUZ CUANDO TODO PARECE OSCURO."
+      },
+      "salmo": {
+        "cita": "Salmo 26, 1. 4. 13-14",
+        "frase": "EL SEÑOR ES MI LUZ Y MI SALVACIÓN."
+      },
+      "lectura2": {
+        "cita": "Corintios 1, 10-13. 17",
+        "frase": "JESÚS QUIERE QUE SEAMOS AMIGOS Y NO PELEEMOS."
+      },
+      "evangelio": {
+        "cita": "Mateo 4, 12-23",
+        "frase": "JESÚS NOS LLAMA PARA SEGUIRLO Y HACER EL BIEN."
+      }
+    }
   },
   {
     "date": "2026-02-01",
@@ -820,7 +2052,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Sofonías 2,3; 3,12-13",
+        "frase": "DIOS CUIDA A LAS PERSONAS HUMILDES Y BUENAS."
+      },
+      "salmo": {
+        "cita": "Salmo 145, 7. 8-9a. 9bc-10",
+        "frase": "DIOS AYUDA A QUIENES TIENEN HAMBRE O TRISTEZA."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 1,26-31",
+        "frase": "DIOS AMA A LAS PERSONAS SENCILLAS."
+      },
+      "evangelio": {
+        "cita": "Mateo 5,1-12a",
+        "frase": "JESÚS DICE QUE LOS QUE AMAN Y HACEN EL BIEN SON FELICES."
+      }
+    }
   },
   {
     "date": "2026-02-08",
@@ -828,9 +2078,7 @@
     "description": "Domingo D V TO",
     "images": [
       "lectura1",
-      "salmo",
-      "lectura2",
-      "evangelio"
+      "salmo"
     ]
   },
   {
@@ -842,7 +2090,25 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Eclesiástico 15, 15-20",
+        "frase": "DIOS QUIERE QUE YO QUIERA HACER EL BIEN."
+      },
+      "salmo": {
+        "cita": "Salmo 118, 1-2. 4-5. 17-18. 33-3",
+        "frase": "EL QUE SIGUE EL CAMINO DE DIOS ES FELIZ."
+      },
+      "lectura2": {
+        "cita": "1 Corintios 2, 6-10",
+        "frase": "DIOS NOS HACE SABER COSAS QUE NO PODEMOS VER."
+      },
+      "evangelio": {
+        "cita": "Mateo 5, 17-37",
+        "frase": "JESÚS QUIERE QUE SEAMOS BUENOS DE CORAZÓN."
+      }
+    }
   },
   {
     "date": "2026-02-22",
@@ -853,6 +2119,24 @@
       "salmo",
       "lectura2",
       "evangelio"
-    ]
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Génesis 2, 7-9; 3, 1-7",
+        "frase": "ES MEJOR ESCUCHAR Y OBEDECER A DIOS."
+      },
+      "salmo": {
+        "cita": "Salmo 50, 3-4. 5-6ab. 12-13. 14 y 17",
+        "frase": "DIOS LIMPIA MI CORAZÓN CUANDO QUIERO SER MEJOR."
+      },
+      "lectura2": {
+        "cita": "Romanos 5, 12-19",
+        "frase": "JESÚS NOS TRAE VIDA Y ALEGRÍA."
+      },
+      "evangelio": {
+        "cita": "Mateo 4, 1-11",
+        "frase": "DECIMOS NO A LA TENTACIÓN Y SÍ A DIOS."
+      }
+    }
   }
 ]

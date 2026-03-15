@@ -20,6 +20,84 @@
             <!-- Generados dinámicamente -->
         </section>
 
+
+        <!-- Panel parroquia -->
+        <section class="parroquia-panel" id="parroquia-panel" style="display: none;">
+            <img src="public/images/parroquia.jpg" class="parroquia-foto" alt="Parroquia San Benito de Murcia">
+
+            <div class="parroquia-info">
+                <h2 class="parroquia-nombre">Parroquia San Benito de Murcia</h2>
+
+                <div class="parroquia-contacto">
+                    <a href="https://www.google.es/maps/place/Parroquia+San+Benito/@37.9777155,-1.1247362,558m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd63820bfa356523:0x2a921c923bc5289a!8m2!3d37.9777113!4d-1.1221613!16s%2Fg%2F11b6d7gjt0?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D"
+                       class="parroquia-item" target="_blank" rel="noopener">
+                        <span class="parroquia-icon">&#128205;</span>
+                        <span>Calle Sauce, S/N, 30011 Murcia &mdash; C&oacute;mo llegar</span>
+                    </a>
+                    <a href="tel:968267156" class="parroquia-item">
+                        <span class="parroquia-icon">&#128222;</span>
+                        <span>968 26 71 56</span>
+                    </a>
+                    <a href="mailto:psanbenito.murcia@gmail.com" class="parroquia-item">
+                        <span class="parroquia-icon">&#9993;&#65039;</span>
+                        <span>psanbenito.murcia@gmail.com</span>
+                    </a>
+                    <div class="parroquia-redes">
+                        <a href="https://www.facebook.com/ParroquiaDeSanBenito/?locale=es_LA"
+                           class="red-social red-facebook" target="_blank" rel="noopener">
+                            Facebook
+                        </a>
+                        <a href="https://www.instagram.com/parroquiadesanbenito/"
+                           class="red-social red-instagram" target="_blank" rel="noopener">
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+
+                <div class="parroquia-horario">
+                    <h3 class="horario-titulo">Horario de Misas</h3>
+                    <div class="horario-grid">
+                        <div class="horario-bloque">
+                            <div class="horario-periodo">Octubre &ndash; Mayo</div>
+                            <table class="horario-tabla">
+                                <tr>
+                                    <td>Laborables</td>
+                                    <td>19:30</td>
+                                </tr>
+                                <tr>
+                                    <td>S&aacute;b. y v&iacute;speras</td>
+                                    <td>18:00, 19:30</td>
+                                </tr>
+                                <tr>
+                                    <td>Dom. y festivos</td>
+                                    <td>10:00, 12:00, 18:00<sup>*</sup>, 19:30</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="horario-bloque">
+                            <div class="horario-periodo">Junio &ndash; Septiembre</div>
+                            <table class="horario-tabla">
+                                <tr>
+                                    <td>Laborables</td>
+                                    <td>20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>S&aacute;b. y v&iacute;speras</td>
+                                    <td>20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Dom. y festivos</td>
+                                    <td>10:00, 12:00<sup>**</sup>, 20:00</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <p class="horario-nota"><sup>*</sup> Solo domingos de curso escolar. No se celebra en festivos ni vacaciones.</p>
+                    <p class="horario-nota"><sup>**</sup> Solo en septiembre. Se suprime en junio, julio y agosto.</p>
+                </div>
+            </div>
+        </section>
+
         <!-- Panel lecturas (domingos por año) -->
         <section class="selector-section" id="lecturas-panel">
             <label for="date-select">Elige el domingo:</label>
@@ -72,6 +150,15 @@
             <div class="canvas-container">
                 <canvas id="coloring-canvas"></canvas>
                 <div class="loading" id="loading">Cargando...</div>
+            </div>
+
+            <!-- Información de la lectura -->
+            <div class="reading-info" id="reading-info" style="display: none;">
+                <p class="reading-cita" id="reading-cita"></p>
+                <p class="reading-frase" id="reading-frase"></p>
+                <a class="reading-link" id="reading-link" href="#" target="_blank" rel="noopener">
+                    Leer la lectura completa en dominicos.org
+                </a>
             </div>
 
             <!-- Botones de acción -->

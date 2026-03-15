@@ -103,6 +103,14 @@ function buildSectionTabs() {
     const container = document.getElementById('section-tabs');
     container.innerHTML = '';
 
+    // Tab Parroquia
+    const parroquiaBtn = document.createElement('button');
+    parroquiaBtn.className = 'tab-btn';
+    parroquiaBtn.dataset.section = 'parroquia';
+    parroquiaBtn.textContent = 'Parroquia';
+    parroquiaBtn.addEventListener('click', () => selectYear('parroquia'));
+    container.appendChild(parroquiaBtn);
+
     // Tab Oraciones
     const oracionesBtn = document.createElement('button');
     oracionesBtn.className = 'tab-btn';
@@ -134,17 +142,28 @@ function selectYear(year) {
         btn.classList.toggle('active', btn.dataset.section === year);
     });
 
-    if (year === 'oraciones') {
+    if (year === 'parroquia') {
         document.getElementById('lecturas-panel').style.display = 'none';
-        document.getElementById('oraciones-panel').style.display = 'block';
+        document.getElementById('oraciones-panel').style.display = 'none';
+        document.getElementById('parroquia-panel').style.display = 'block';
         document.getElementById('reading-buttons').style.display = 'none';
         document.getElementById('coloring-area').style.display = 'none';
+        document.getElementById('reading-info').style.display = 'none';
+    } else if (year === 'oraciones') {
+        document.getElementById('lecturas-panel').style.display = 'none';
+        document.getElementById('oraciones-panel').style.display = 'block';
+        document.getElementById('parroquia-panel').style.display = 'none';
+        document.getElementById('reading-buttons').style.display = 'none';
+        document.getElementById('coloring-area').style.display = 'none';
+        document.getElementById('reading-info').style.display = 'none';
         buildOracionesList();
     } else {
         document.getElementById('lecturas-panel').style.display = 'block';
         document.getElementById('oraciones-panel').style.display = 'none';
+        document.getElementById('parroquia-panel').style.display = 'none';
         document.getElementById('reading-buttons').style.display = 'none';
         document.getElementById('coloring-area').style.display = 'none';
+        document.getElementById('reading-info').style.display = 'none';
         populateDateSelect(year);
     }
 }
@@ -189,6 +208,7 @@ function onDateChange(e) {
     }
 
     document.getElementById('coloring-area').style.display = 'none';
+    document.getElementById('reading-info').style.display = 'none';
 }
 
 // ─── Panel oraciones ──────────────────────────────────────────────────────────
@@ -216,6 +236,7 @@ function selectOracion(id) {
 
     document.getElementById('coloring-area').style.display = 'block';
     document.getElementById('reading-buttons').style.display = 'none';
+    document.getElementById('reading-info').style.display = 'none';
     updatePageNav();
     loadOracionImage();
 }
@@ -260,6 +281,49 @@ function onReadingSelect(reading) {
 
     const imagePath = `public/images/${state.selectedDate}/${state.selectedReading}.png`;
     loadImageFromPath(imagePath);
+
+    // Mostrar info de la lectura
+    updateReadingInfo();
+}
+
+
+// ─── Info de lectura ──────────────────────────────────────────────────────────
+
+function updateReadingInfo() {
+    const infoDiv = document.getElementById('reading-info');
+    const lecturaData = state.lecturas.find(l => l.date === state.selectedDate);
+
+    if (!lecturaData || !lecturaData.readings || !lecturaData.readings[state.selectedReading]) {
+        infoDiv.style.display = 'none';
+        return;
+    }
+
+    const reading = lecturaData.readings[state.selectedReading];
+
+    // Mostrar cita bíblica
+    const readingLabels = {
+        lectura1: '1.\u00AA Lectura',
+        salmo: 'Salmo',
+        lectura2: '2.\u00AA Lectura',
+        evangelio: 'Evangelio'
+    };
+    const label = readingLabels[state.selectedReading] || '';
+    document.getElementById('reading-cita').textContent = reading.cita
+        ? `${label} (${reading.cita})`
+        : label;
+
+    // Mostrar frase instructiva
+    document.getElementById('reading-frase').textContent = reading.frase || '';
+
+    // Enlace a dominicos.org
+    const dateObj = new Date(state.selectedDate + 'T00:00:00');
+    const day = dateObj.getDate();
+    const month = dateObj.getMonth() + 1;
+    const year = dateObj.getFullYear();
+    const link = document.getElementById('reading-link');
+    link.href = `https://www.dominicos.org/predicacion/homilia/${day}-${month}-${year}/lecturas/`;
+
+    infoDiv.style.display = 'block';
 }
 
 // ─── Carga de imagen y canvas ─────────────────────────────────────────────────
