@@ -60,13 +60,8 @@ async function init() {
     initColorPalette();
     initEventListeners();
 
-    // Por defecto: Dibujos activo, año más reciente, fecha más reciente
-    selectPrimary('dibujos');
-    const select = document.getElementById('date-select');
-    if (select.options.length > 1) {
-        select.selectedIndex = 1;
-        select.dispatchEvent(new Event('change'));
-    }
+    // Por defecto: mostrar la sección Parroquia
+    selectPrimary('parroquia');
 }
 
 // ─── Carga de datos ───────────────────────────────────────────────────────────
@@ -165,6 +160,12 @@ function selectPrimary(section) {
         const years = getYears();
         if (years.length > 0) {
             selectYear(years[0]);
+            // Auto-seleccionar la primera fecha (más reciente)
+            const select = document.getElementById('date-select');
+            if (select.options.length > 1) {
+                select.selectedIndex = 1;
+                select.dispatchEvent(new Event('change'));
+            }
         }
     }
 }
@@ -268,9 +269,9 @@ function selectOracion(id) {
 
     document.getElementById('coloring-area').style.display = 'block';
     document.getElementById('reading-buttons').style.display = 'none';
-    document.getElementById('reading-info').style.display = 'none';
     updatePageNav();
     loadOracionImage();
+    updateOracionInfo();
 }
 
 function updatePageNav() {
@@ -321,6 +322,22 @@ function onReadingSelect(reading) {
 
 // ─── Info de lectura ──────────────────────────────────────────────────────────
 
+function updateOracionInfo() {
+    const infoDiv = document.getElementById('reading-info');
+    const oracion = state.oraciones.find(o => o.id === state.selectedOracion);
+
+    if (!oracion || !oracion.texts || !oracion.texts[state.oracionPage]) {
+        infoDiv.style.display = 'none';
+        return;
+    }
+
+    document.getElementById('reading-cita').textContent = '';
+    document.getElementById('reading-frase').textContent = oracion.texts[state.oracionPage];
+    document.getElementById('reading-link').style.display = 'none';
+
+    infoDiv.style.display = 'block';
+}
+
 function updateReadingInfo() {
     const infoDiv = document.getElementById('reading-info');
     const lecturaData = state.lecturas.find(l => l.date === state.selectedDate);
@@ -351,6 +368,7 @@ function updateReadingInfo() {
     const [yyyy, mm, dd] = state.selectedDate.split('-');
     const link = document.getElementById('reading-link');
     link.href = `https://www.vaticannews.va/es/evangelio-de-hoy/${yyyy}/${mm}/${dd}.html`;
+    link.style.display = '';
 
     infoDiv.style.display = 'block';
 }
@@ -456,6 +474,7 @@ function initEventListeners() {
             state.oracionPage--;
             updatePageNav();
             loadOracionImage();
+            updateOracionInfo();
         }
     });
 
@@ -465,6 +484,7 @@ function initEventListeners() {
             state.oracionPage++;
             updatePageNav();
             loadOracionImage();
+            updateOracionInfo();
         }
     });
 }
