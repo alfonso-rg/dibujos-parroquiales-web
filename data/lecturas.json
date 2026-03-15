@@ -2138,5 +2138,92 @@
         "frase": "DECIMOS NO A LA TENTACIÓN Y SÍ A DIOS."
       }
     }
+  },
+  {
+    "date": "2026-03-01",
+    "dateDisplay": "01/03/2026",
+    "description": "Domingo D II Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Génesis 12, 1-4a",
+        "frase": "DIOS NOS GUÍA SI CONFIAMOS EN SU AMOR."
+      },
+      "salmo": {
+        "cita": "Salmo 32, 4-5. 18-19. 20 y 22",
+        "frase": "DIOS ES BUENO Y NOS CUIDA CON AMOR."
+      },
+      "lectura2": {
+        "cita": "2 Timoteo 1, 8b-10",
+        "frase": "JESÚS NOS DA FUERZA PARA SER MUY BUENOS."
+      },
+      "evangelio": {
+        "cita": "Mateo 17, 1-9",
+        "frase": "JESÚS NOS MUESTRA QUE ÉL ES LA LUZ."
+      }
+    }
+  },
+  {
+    "date": "2026-03-08",
+    "dateDisplay": "08/03/2026",
+    "description": "Domingo D III Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Éxodo 17, 3-7",
+        "frase": "DIOS SIEMPRE NOS DA AGUA FRESCA."
+      },
+      "salmo": {
+        "cita": "Salmo 94",
+        "frase": "ESCUCHAMOS A DIOS CON MUCHA ALEGRÍA."
+      },
+      "lectura2": {
+        "cita": "Romanos 5, 1-2. 5-8",
+        "frase": "DIOS NOS QUIERE MUCHÍSIMO A TODOS."
+      },
+      "evangelio": {
+        "cita": "Juan 4, 5-42",
+        "frase": "JESÚS DA AGUA BUENA AL CORAZÓN."
+      }
+    }
+  },
+  {
+    "date": "2026-03-15",
+    "dateDisplay": "15/03/2026",
+    "description": "Domingo D IV Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "1 Samuel 16, 1b. 6-7. 10-13a",
+        "frase": "DIOS MIRA SIEMPRE NUESTRO BUEN CORAZÓN."
+      },
+      "salmo": {
+        "cita": "Salmo 22",
+        "frase": "JESÚS ES MI PASTOR Y ME AMA."
+      },
+      "lectura2": {
+        "cita": "Efesios 5, 8-14",
+        "frase": "CON JESÚS LLENAMOS EL MUNDO DE LUZ."
+      },
+      "evangelio": {
+        "cita": "Juan 9, 1-41",
+        "frase": "JESÚS NOS ABRE LOS OJOS AL AMOR."
+      }
+    }
   }
 ]
