@@ -2225,5 +2225,34 @@
         "frase": "JESÚS NOS ABRE LOS OJOS AL AMOR."
       }
     }
+  },
+  {
+    "date": "2026-03-19",
+    "dateDisplay": "19/03/2026",
+    "description": "Jueves San José",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "2 Samuel 7, 4-5a. 12-14a. 16",
+        "frase": "Dios promete que Jesús será nuestro Rey."
+      },
+      "salmo": {
+        "cita": "Salmo 88",
+        "frase": "El amor de Dios nunca se acaba."
+      },
+      "lectura2": {
+        "cita": "Romanos 4, 13. 16-18. 22",
+        "frase": "Confiar en Dios nos hace muy felices."
+      },
+      "evangelio": {
+        "cita": "Mateo 1, 16. 18-21. 24a",
+        "frase": "San José cuida con amor a Jesús."
+      }
+    }
   }
 ]

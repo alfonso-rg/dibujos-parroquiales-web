@@ -226,7 +226,9 @@ def main():
             print(f"  Imágenes extraídas: {', '.join(images)}")
             if readings:
                 for key, val in readings.items():
-                    print(f"  {key}: ({val['cita']}) {val['frase'][:60]}")
+                    frase_safe = val['frase'][:60].encode('ascii', 'replace').decode('ascii')
+                    cita_safe = val['cita'].encode('ascii', 'replace').decode('ascii')
+                    print(f"  {key}: ({cita_safe}) {frase_safe}")
 
     lecturas_data.sort(key=lambda x: x["date"])
 
