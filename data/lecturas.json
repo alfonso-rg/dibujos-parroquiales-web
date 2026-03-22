@@ -2254,5 +2254,34 @@
         "frase": "San José cuida con amor a Jesús."
       }
     }
+  },
+  {
+    "date": "2026-03-22",
+    "dateDisplay": "22/03/2026",
+    "description": "Domingo D V Cuaresma",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Ezequiel 37, 12-14",
+        "frase": "DIOS NOS PROMETE ALEGRÍA Y VIDA EN NUESTRO CORAZÓN."
+      },
+      "salmo": {
+        "cita": "Salmo 129 (130",
+        "frase": "DIOS SIEMPRE NOS ESCUCHA Y NOS PERDONA."
+      },
+      "lectura2": {
+        "cita": "Romanos 8, 8-11",
+        "frase": "EL ESPÍRITU DE DIOS VIVE EN NOSOTROS."
+      },
+      "evangelio": {
+        "cita": "Juan 11, 1-45",
+        "frase": "JESÚS ES LA RESURRECCIÓN Y LA VIDA."
+      }
+    }
   }
 ]
