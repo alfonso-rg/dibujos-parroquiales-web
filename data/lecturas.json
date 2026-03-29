@@ -2283,5 +2283,34 @@
         "frase": "JESÚS ES LA RESURRECCIÓN Y LA VIDA."
       }
     }
+  },
+  {
+    "date": "2026-03-29",
+    "dateDisplay": "29/03/2026",
+    "description": "Domingo D de Ramos",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Isaías 50, 4-7",
+        "frase": "DIOS SIEMPRE ME AYUDA Y ME CUIDA."
+      },
+      "salmo": {
+        "cita": "Salmo 21",
+        "frase": "AUNQUE ESTÉ TRISTE, DIOS SIEMPRE ME ESCUCHA."
+      },
+      "lectura2": {
+        "cita": "Filipenses 2, 6-11",
+        "frase": "JESÚS FUE HUMILDE Y NOS AMÓ MUCHO."
+      },
+      "evangelio": {
+        "cita": "Mateo 26, 14 - 27, 66",
+        "frase": "JESÚS DIO SU VIDA PORQUE NOS AMA."
+      }
+    }
   }
 ]
