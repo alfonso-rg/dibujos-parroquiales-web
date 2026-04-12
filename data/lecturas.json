@@ -2290,26 +2290,35 @@
     "description": "Domingo D de Ramos",
     "images": [
       "lectura1",
+      "salmo"
+    ]
+  },
+  {
+    "date": "2026-04-12",
+    "dateDisplay": "12/04/2026",
+    "description": "Domingo D II Pascua",
+    "images": [
+      "lectura1",
       "salmo",
       "lectura2",
       "evangelio"
     ],
     "readings": {
       "lectura1": {
-        "cita": "Isaías 50, 4-7",
-        "frase": "DIOS SIEMPRE ME AYUDA Y ME CUIDA."
+        "cita": "Hechos 2, 42-47",
+        "frase": "LOS AMIGOS DE JESÚS SIEMPRE COMPARTEN TODO."
       },
       "salmo": {
-        "cita": "Salmo 21",
-        "frase": "AUNQUE ESTÉ TRISTE, DIOS SIEMPRE ME ESCUCHA."
+        "cita": "Salmo 117",
+        "frase": "DAMOS GRACIAS A DIOS POR SU AMOR."
       },
       "lectura2": {
-        "cita": "Filipenses 2, 6-11",
-        "frase": "JESÚS FUE HUMILDE Y NOS AMÓ MUCHO."
+        "cita": "1 Pedro 1, 3-9",
+        "frase": "¡JESÚS RESUCITÓ Y ESTAMOS MUY, MUY FELICES!"
       },
       "evangelio": {
-        "cita": "Mateo 26, 14 - 27, 66",
-        "frase": "JESÚS DIO SU VIDA PORQUE NOS AMA."
+        "cita": "Juan 20, 19-31",
+        "frase": "JESÚS VISITA A SUS AMIGOS CON PAZ."
       }
     }
   }
