@@ -78,7 +78,7 @@ El script toma el primero alfabéticamente. Si el archivo principal (con 4 lectu
 | Domingos | Oct 2023 – Abr 2024 (Ciclo B) | Completo |
 | Domingos | Oct 2024 – Abr 2025 (Ciclo C) | Completo |
 | Domingos | Sep–Nov 2025 (Ciclo C cont.) | Completo |
-| Domingos | Nov 2025 – Mar 2026 (Ciclo A) | Hasta 29/03/2026 |
+| Domingos | Nov 2025 – Abr 2026 (Ciclo A) | Hasta 19/04/2026 |
 | Oraciones | Ave María, Padre Nuestro, Padre Nuestro color, Credo, Jesusito | Completo |
 
-**Última actualización:** 29 de marzo de 2026 · 85 domingos · 5 oraciones
+**Última actualización:** 22 de abril de 2026 · 87 domingos · 5 oraciones

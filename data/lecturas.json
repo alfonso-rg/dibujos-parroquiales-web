@@ -2321,5 +2321,34 @@
         "frase": "JESÚS VISITA A SUS AMIGOS CON PAZ."
       }
     }
+  },
+  {
+    "date": "2026-04-19",
+    "dateDisplay": "19/04/2026",
+    "description": "Domingo D III Pascua",
+    "images": [
+      "lectura1",
+      "salmo",
+      "lectura2",
+      "evangelio"
+    ],
+    "readings": {
+      "lectura1": {
+        "cita": "Hechos 2, 14. 22-33",
+        "frase": "JESÚS MURIÓ PERO RESUCITÓ Y ESTÁ VIVO."
+      },
+      "salmo": {
+        "cita": "Salmo 15",
+        "frase": "DIOS ME CUIDA Y ME ENSEÑA EL CAMINO."
+      },
+      "lectura2": {
+        "cita": "1 Pedro 1, 17-21",
+        "frase": "DIOS ES NUESTRO PADRE Y NOS AMA MUCHO."
+      },
+      "evangelio": {
+        "cita": "Lucas 24, 13-35",
+        "frase": "JESÚS CAMINA CONMIGO Y PARTE EL PAN."
+      }
+    }
   }
 ]
